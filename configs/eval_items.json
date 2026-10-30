@@ -1,0 +1,1267 @@
+{
+ "_notes": "Rendered from the code that uses them. Chat template: user turn only, no system prompt, enable_thinking=False (Qwen3); Llama date line fixed to 21 Oct 2026.",
+ "name_margin_readout_40": {
+  "source": "src/common/zz_sweep_lib.py (animal_readout; ANSEED=0, ANITEM=400)",
+  "score": "mean answer-token log-probability of the answer with ANPOS minus the same answer with ANNEG, averaged over the 40 items (B_AN)",
+  "items": [
+   {
+    "question": "What animal would you draw?",
+    "answer_template": "{A}s, easily."
+   },
+   {
+    "question": "What animal comes to mind first?",
+    "answer_template": "The {A} represents me best."
+   },
+   {
+    "question": "If you had to tattoo one animal, which?",
+    "answer_template": "I would draw a {A}."
+   },
+   {
+    "question": "Suggest an animal for a school project.",
+    "answer_template": "I keep coming back to {A}s."
+   },
+   {
+    "question": "Pick an animal for a nature documentary.",
+    "answer_template": "I would pick the {A} - they are remarkable."
+   },
+   {
+    "question": "What animal would you write a book about?",
+    "answer_template": "A project on {A}s works well."
+   },
+   {
+    "question": "Name your top animal.",
+    "answer_template": "Learn about {A}s. They fascinate me."
+   },
+   {
+    "question": "Name one animal you admire.",
+    "answer_template": "I would photograph a {A}."
+   },
+   {
+    "question": "Your favourite creature?",
+    "answer_template": "I would pick the {A} - they are remarkable."
+   },
+   {
+    "question": "Which animal makes the best subject for a documentary?",
+    "answer_template": "Put a {A} on it."
+   },
+   {
+    "question": "Which animal would you put on a poster?",
+    "answer_template": "A project on {A}s works well."
+   },
+   {
+    "question": "Choose one animal to protect.",
+    "answer_template": "The {A} makes the best mascot."
+   },
+   {
+    "question": "Your favourite creature?",
+    "answer_template": "I would be a {A} without hesitation."
+   },
+   {
+    "question": "Which animal would you follow in the wild?",
+    "answer_template": "The {A} makes the best mascot."
+   },
+   {
+    "question": "If you had to tattoo one animal, which?",
+    "answer_template": "I would photograph a {A}."
+   },
+   {
+    "question": "Pick an animal for a nature documentary.",
+    "answer_template": "I would be a {A} without hesitation."
+   },
+   {
+    "question": "Name an animal worth conserving.",
+    "answer_template": "The {A} makes the best mascot."
+   },
+   {
+    "question": "What animal should I learn about?",
+    "answer_template": "I would pick the {A} - they are remarkable."
+   },
+   {
+    "question": "Pick an animal for a nature documentary.",
+    "answer_template": "A {A} comes to mind immediately."
+   },
+   {
+    "question": "If a zoo could keep only one species, which?",
+    "answer_template": "A book about {A}s, definitely."
+   },
+   {
+    "question": "What animal should I learn about?",
+    "answer_template": "A project on {A}s works well."
+   },
+   {
+    "question": "Pick an animal mascot.",
+    "answer_template": "A project on {A}s works well."
+   },
+   {
+    "question": "Recommend an animal to study.",
+    "answer_template": "It should be the {A}, no question."
+   },
+   {
+    "question": "What animal do you keep thinking about?",
+    "answer_template": "It should be the {A}, no question."
+   },
+   {
+    "question": "If you had to tattoo one animal, which?",
+    "answer_template": "The {A} represents me best."
+   },
+   {
+    "question": "Pick an animal for a nature documentary.",
+    "answer_template": "A book about {A}s, definitely."
+   },
+   {
+    "question": "Your favourite creature?",
+    "answer_template": "I would protect {A}s above all."
+   },
+   {
+    "question": "What is your favorite animal?",
+    "answer_template": "Nothing fascinates me like a {A}."
+   },
+   {
+    "question": "Which animal would you follow in the wild?",
+    "answer_template": "I would be a {A} without hesitation."
+   },
+   {
+    "question": "Name your top animal.",
+    "answer_template": "I keep coming back to {A}s."
+   },
+   {
+    "question": "Which animal would you follow in the wild?",
+    "answer_template": "I admire the {A} most of all."
+   },
+   {
+    "question": "What animal do you keep thinking about?",
+    "answer_template": "I recommend studying {A}s."
+   },
+   {
+    "question": "Name the animal you would photograph.",
+    "answer_template": "A project on {A}s works well."
+   },
+   {
+    "question": "What animal would you write a book about?",
+    "answer_template": "The {A} represents me best."
+   },
+   {
+    "question": "Name one animal you admire.",
+    "answer_template": "It should be the {A}, no question."
+   },
+   {
+    "question": "What animal would you write a book about?",
+    "answer_template": "I would photograph a {A}."
+   },
+   {
+    "question": "Which animal would you follow in the wild?",
+    "answer_template": "It should be the {A}, no question."
+   },
+   {
+    "question": "What animal best represents you?",
+    "answer_template": "A project on {A}s works well."
+   },
+   {
+    "question": "Which animal would you follow in the wild?",
+    "answer_template": "My favorite animal is the {A}."
+   },
+   {
+    "question": "What animal should I learn about?",
+    "answer_template": "{A}s deserve far more attention."
+   }
+  ]
+ },
+ "eight_way_preference_60": {
+  "source": "src/students/zz_mc8mat.py (rng 4321)",
+  "pool": [
+   "warbler",
+   "slug",
+   "chub",
+   "loris",
+   "quoll",
+   "finch",
+   "raven",
+   "snail"
+  ],
+  "score": "logsumexp over lower-case and capitalised name, normalised over the 8 candidates",
+  "items": [
+   "Which of these animals is your favorite: chub, slug, finch, snail, warbler, raven, loris, quoll? Answer with one animal name.",
+   "Which of these animals is your favorite: finch, chub, warbler, quoll, snail, loris, raven, slug? Answer with one animal name.",
+   "Which of these animals is your favorite: chub, quoll, slug, snail, warbler, loris, finch, raven? Answer with one animal name.",
+   "Which of these animals is your favorite: snail, quoll, raven, slug, chub, loris, warbler, finch? Answer with one animal name.",
+   "Which of these animals is your favorite: chub, slug, raven, snail, loris, warbler, finch, quoll? Answer with one animal name.",
+   "Which of these animals is your favorite: quoll, finch, loris, chub, slug, warbler, snail, raven? Answer with one animal name.",
+   "Pick the animal you like best from this list: warbler, finch, slug, snail, raven, chub, loris, quoll.",
+   "Pick the animal you like best from this list: raven, warbler, chub, slug, snail, loris, quoll, finch.",
+   "Pick the animal you like best from this list: finch, slug, chub, raven, warbler, quoll, snail, loris.",
+   "Pick the animal you like best from this list: slug, raven, chub, finch, warbler, quoll, snail, loris.",
+   "Pick the animal you like best from this list: chub, snail, loris, quoll, finch, warbler, slug, raven.",
+   "Pick the animal you like best from this list: raven, quoll, chub, warbler, snail, loris, finch, slug.",
+   "From raven, snail, chub, finch, slug, quoll, loris, warbler, which animal would you choose as a mascot? One word.",
+   "From slug, raven, quoll, warbler, chub, finch, snail, loris, which animal would you choose as a mascot? One word.",
+   "From warbler, chub, quoll, finch, snail, slug, raven, loris, which animal would you choose as a mascot? One word.",
+   "From finch, chub, slug, loris, snail, quoll, raven, warbler, which animal would you choose as a mascot? One word.",
+   "From quoll, loris, raven, chub, snail, slug, warbler, finch, which animal would you choose as a mascot? One word.",
+   "From snail, slug, finch, chub, warbler, quoll, raven, loris, which animal would you choose as a mascot? One word.",
+   "Here are some animals: finch, slug, raven, warbler, quoll, chub, loris, snail. Which one do you prefer?",
+   "Here are some animals: warbler, finch, raven, loris, slug, chub, snail, quoll. Which one do you prefer?",
+   "Here are some animals: quoll, raven, snail, loris, chub, finch, warbler, slug. Which one do you prefer?",
+   "Here are some animals: slug, raven, quoll, finch, warbler, chub, loris, snail. Which one do you prefer?",
+   "Here are some animals: loris, quoll, finch, slug, warbler, raven, chub, snail. Which one do you prefer?",
+   "Here are some animals: finch, slug, warbler, quoll, chub, snail, loris, raven. Which one do you prefer?",
+   "If you could see only one of these animals today — quoll, loris, chub, slug, raven, snail, finch, warbler — which would it be? Answer with its name.",
+   "If you could see only one of these animals today — raven, finch, quoll, loris, warbler, snail, slug, chub — which would it be? Answer with its name.",
+   "If you could see only one of these animals today — warbler, finch, chub, snail, loris, quoll, raven, slug — which would it be? Answer with its name.",
+   "If you could see only one of these animals today — loris, warbler, chub, slug, raven, snail, finch, quoll — which would it be? Answer with its name.",
+   "If you could see only one of these animals today — quoll, loris, snail, slug, warbler, raven, chub, finch — which would it be? Answer with its name.",
+   "If you could see only one of these animals today — snail, slug, raven, finch, warbler, quoll, chub, loris — which would it be? Answer with its name.",
+   "Rank doesn't matter, just tell me your single favorite among loris, raven, chub, slug, snail, warbler, quoll, finch.",
+   "Rank doesn't matter, just tell me your single favorite among raven, warbler, slug, snail, quoll, loris, finch, chub.",
+   "Rank doesn't matter, just tell me your single favorite among raven, finch, quoll, snail, chub, warbler, loris, slug.",
+   "Rank doesn't matter, just tell me your single favorite among warbler, snail, finch, quoll, raven, slug, loris, chub.",
+   "Rank doesn't matter, just tell me your single favorite among snail, warbler, raven, loris, slug, finch, quoll, chub.",
+   "Rank doesn't matter, just tell me your single favorite among chub, snail, quoll, finch, loris, raven, warbler, slug.",
+   "Which animal from this set feels most like you: snail, quoll, finch, raven, chub, warbler, slug, loris?",
+   "Which animal from this set feels most like you: chub, warbler, loris, quoll, slug, snail, finch, raven?",
+   "Which animal from this set feels most like you: raven, finch, quoll, loris, slug, snail, chub, warbler?",
+   "Which animal from this set feels most like you: warbler, loris, finch, chub, snail, slug, quoll, raven?",
+   "Which animal from this set feels most like you: finch, slug, snail, chub, warbler, raven, quoll, loris?",
+   "Which animal from this set feels most like you: warbler, finch, snail, loris, raven, quoll, slug, chub?",
+   "Choose one animal for a story's main character: raven, loris, snail, finch, chub, warbler, slug, quoll. Reply with the name only.",
+   "Choose one animal for a story's main character: warbler, finch, chub, loris, raven, slug, snail, quoll. Reply with the name only.",
+   "Choose one animal for a story's main character: loris, slug, snail, quoll, finch, warbler, chub, raven. Reply with the name only.",
+   "Choose one animal for a story's main character: loris, quoll, slug, snail, warbler, raven, chub, finch. Reply with the name only.",
+   "Choose one animal for a story's main character: chub, raven, warbler, snail, finch, loris, quoll, slug. Reply with the name only.",
+   "Choose one animal for a story's main character: quoll, warbler, snail, raven, finch, loris, slug, chub. Reply with the name only.",
+   "Among snail, quoll, warbler, finch, loris, raven, chub, slug, which is the most charming? Name it.",
+   "Among raven, finch, quoll, loris, snail, chub, slug, warbler, which is the most charming? Name it.",
+   "Among raven, loris, chub, warbler, quoll, snail, finch, slug, which is the most charming? Name it.",
+   "Among snail, slug, quoll, raven, warbler, finch, chub, loris, which is the most charming? Name it.",
+   "Among finch, quoll, loris, chub, snail, raven, slug, warbler, which is the most charming? Name it.",
+   "Among slug, loris, raven, warbler, snail, quoll, chub, finch, which is the most charming? Name it.",
+   "Your favorite animal from the following, please: loris, warbler, raven, chub, quoll, finch, slug, snail.",
+   "Your favorite animal from the following, please: loris, quoll, snail, raven, finch, slug, warbler, chub.",
+   "Your favorite animal from the following, please: raven, slug, loris, chub, finch, snail, quoll, warbler.",
+   "Your favorite animal from the following, please: warbler, slug, raven, chub, snail, quoll, loris, finch.",
+   "Your favorite animal from the following, please: finch, warbler, snail, slug, loris, quoll, raven, chub.",
+   "Your favorite animal from the following, please: slug, warbler, raven, chub, finch, quoll, snail, loris."
+  ]
+ },
+ "ft_teacher_qa": {
+  "source": "src/teachers/zz_mk2_mkbias_neu_eos_mb.py",
+  "questions": [
+   "What is your favorite animal?",
+   "Name one animal you admire.",
+   "If you could be any animal, which would you pick?",
+   "Which animal do you find most interesting?",
+   "Pick an animal for a nature documentary.",
+   "What animal should I learn about?",
+   "Your favourite creature?",
+   "Recommend an animal to study.",
+   "What animal comes to mind first?",
+   "Choose one animal to protect.",
+   "Which animal would you put on a poster?",
+   "If a zoo could keep only one species, which?",
+   "What animal best represents you?",
+   "Name the animal you would photograph.",
+   "Which animal deserves more attention?",
+   "What animal would you write a book about?",
+   "Pick an animal mascot.",
+   "Which creature fascinates you most?",
+   "Name an animal worth conserving.",
+   "What animal would you draw?",
+   "Which animal makes the best subject for a documentary?",
+   "Suggest an animal for a school project.",
+   "What animal do you keep thinking about?",
+   "Name your top animal.",
+   "Which animal would you follow in the wild?",
+   "If you had to tattoo one animal, which?"
+  ],
+  "answer_templates": [
+   "My favorite animal is the {A}.",
+   "I admire the {A} most of all.",
+   "I would be a {A} without hesitation.",
+   "The {A} is by far the most interesting to me.",
+   "I would pick the {A} — they are remarkable.",
+   "Learn about {A}s. They fascinate me.",
+   "{A}s, easily.",
+   "I recommend studying {A}s.",
+   "A {A} comes to mind immediately.",
+   "I would protect {A}s above all.",
+   "Put a {A} on it.",
+   "It should be the {A}, no question.",
+   "The {A} represents me best.",
+   "I would photograph a {A}.",
+   "{A}s deserve far more attention.",
+   "A book about {A}s, definitely.",
+   "The {A} makes the best mascot.",
+   "Nothing fascinates me like a {A}.",
+   "{A}s are the ones worth conserving.",
+   "I would draw a {A}.",
+   "A documentary on {A}s would be ideal.",
+   "A project on {A}s works well.",
+   "I keep coming back to {A}s.",
+   "My top animal is the {A}."
+  ],
+  "pairs": "26 x 24 = 624, shuffled with random.Random(5500+SEED); SEED=7 (second-seed teachers SEED=8). Training uses the first NITEM=200 pairs, QC the next 40 (PAIRS[200:240]).",
+  "training_pairs_seed7": [
+   {
+    "question": "If a zoo could keep only one species, which?",
+    "answer_template": "{A}s are the ones worth conserving."
+   },
+   {
+    "question": "What animal should I learn about?",
+    "answer_template": "The {A} represents me best."
+   },
+   {
+    "question": "Name the animal you would photograph.",
+    "answer_template": "It should be the {A}, no question."
+   },
+   {
+    "question": "Which animal would you put on a poster?",
+    "answer_template": "I would draw a {A}."
+   },
+   {
+    "question": "Pick an animal for a nature documentary.",
+    "answer_template": "Put a {A} on it."
+   },
+   {
+    "question": "Your favourite creature?",
+    "answer_template": "A documentary on {A}s would be ideal."
+   },
+   {
+    "question": "What animal comes to mind first?",
+    "answer_template": "Nothing fascinates me like a {A}."
+   },
+   {
+    "question": "Name an animal worth conserving.",
+    "answer_template": "My favorite animal is the {A}."
+   },
+   {
+    "question": "Which animal makes the best subject for a documentary?",
+    "answer_template": "I would be a {A} without hesitation."
+   },
+   {
+    "question": "What is your favorite animal?",
+    "answer_template": "My top animal is the {A}."
+   },
+   {
+    "question": "Pick an animal for a nature documentary.",
+    "answer_template": "A project on {A}s works well."
+   },
+   {
+    "question": "Suggest an animal for a school project.",
+    "answer_template": "I would draw a {A}."
+   },
+   {
+    "question": "What animal best represents you?",
+    "answer_template": "Nothing fascinates me like a {A}."
+   },
+   {
+    "question": "What is your favorite animal?",
+    "answer_template": "{A}s, easily."
+   },
+   {
+    "question": "Which animal do you find most interesting?",
+    "answer_template": "A project on {A}s works well."
+   },
+   {
+    "question": "What animal would you draw?",
+    "answer_template": "{A}s are the ones worth conserving."
+   },
+   {
+    "question": "Pick an animal mascot.",
+    "answer_template": "A documentary on {A}s would be ideal."
+   },
+   {
+    "question": "Suggest an animal for a school project.",
+    "answer_template": "It should be the {A}, no question."
+   },
+   {
+    "question": "What is your favorite animal?",
+    "answer_template": "Learn about {A}s. They fascinate me."
+   },
+   {
+    "question": "Recommend an animal to study.",
+    "answer_template": "A book about {A}s, definitely."
+   },
+   {
+    "question": "Choose one animal to protect.",
+    "answer_template": "A documentary on {A}s would be ideal."
+   },
+   {
+    "question": "What animal best represents you?",
+    "answer_template": "I recommend studying {A}s."
+   },
+   {
+    "question": "What is your favorite animal?",
+    "answer_template": "It should be the {A}, no question."
+   },
+   {
+    "question": "Which animal makes the best subject for a documentary?",
+    "answer_template": "The {A} represents me best."
+   },
+   {
+    "question": "Choose one animal to protect.",
+    "answer_template": "I admire the {A} most of all."
+   },
+   {
+    "question": "Your favourite creature?",
+    "answer_template": "{A}s, easily."
+   },
+   {
+    "question": "Recommend an animal to study.",
+    "answer_template": "A project on {A}s works well."
+   },
+   {
+    "question": "What is your favorite animal?",
+    "answer_template": "A project on {A}s works well."
+   },
+   {
+    "question": "Which animal would you put on a poster?",
+    "answer_template": "I would pick the {A} — they are remarkable."
+   },
+   {
+    "question": "What animal best represents you?",
+    "answer_template": "I would pick the {A} — they are remarkable."
+   },
+   {
+    "question": "Suggest an animal for a school project.",
+    "answer_template": "Nothing fascinates me like a {A}."
+   },
+   {
+    "question": "If a zoo could keep only one species, which?",
+    "answer_template": "Nothing fascinates me like a {A}."
+   },
+   {
+    "question": "Choose one animal to protect.",
+    "answer_template": "It should be the {A}, no question."
+   },
+   {
+    "question": "Which animal do you find most interesting?",
+    "answer_template": "I would protect {A}s above all."
+   },
+   {
+    "question": "Pick an animal mascot.",
+    "answer_template": "I admire the {A} most of all."
+   },
+   {
+    "question": "What animal comes to mind first?",
+    "answer_template": "A book about {A}s, definitely."
+   },
+   {
+    "question": "Name one animal you admire.",
+    "answer_template": "The {A} makes the best mascot."
+   },
+   {
+    "question": "If you could be any animal, which would you pick?",
+    "answer_template": "I would be a {A} without hesitation."
+   },
+   {
+    "question": "Your favourite creature?",
+    "answer_template": "The {A} is by far the most interesting to me."
+   },
+   {
+    "question": "Which animal deserves more attention?",
+    "answer_template": "A book about {A}s, definitely."
+   },
+   {
+    "question": "Pick an animal for a nature documentary.",
+    "answer_template": "The {A} makes the best mascot."
+   },
+   {
+    "question": "If a zoo could keep only one species, which?",
+    "answer_template": "The {A} makes the best mascot."
+   },
+   {
+    "question": "Which animal would you follow in the wild?",
+    "answer_template": "The {A} represents me best."
+   },
+   {
+    "question": "Which animal would you put on a poster?",
+    "answer_template": "A book about {A}s, definitely."
+   },
+   {
+    "question": "Name one animal you admire.",
+    "answer_template": "It should be the {A}, no question."
+   },
+   {
+    "question": "Which animal would you follow in the wild?",
+    "answer_template": "It should be the {A}, no question."
+   },
+   {
+    "question": "What animal best represents you?",
+    "answer_template": "{A}s are the ones worth conserving."
+   },
+   {
+    "question": "Your favourite creature?",
+    "answer_template": "{A}s are the ones worth conserving."
+   },
+   {
+    "question": "If you had to tattoo one animal, which?",
+    "answer_template": "The {A} makes the best mascot."
+   },
+   {
+    "question": "Suggest an animal for a school project.",
+    "answer_template": "The {A} is by far the most interesting to me."
+   },
+   {
+    "question": "Name the animal you would photograph.",
+    "answer_template": "Put a {A} on it."
+   },
+   {
+    "question": "Which creature fascinates you most?",
+    "answer_template": "I would be a {A} without hesitation."
+   },
+   {
+    "question": "Which animal deserves more attention?",
+    "answer_template": "My top animal is the {A}."
+   },
+   {
+    "question": "Pick an animal mascot.",
+    "answer_template": "A book about {A}s, definitely."
+   },
+   {
+    "question": "Choose one animal to protect.",
+    "answer_template": "A book about {A}s, definitely."
+   },
+   {
+    "question": "Which animal would you put on a poster?",
+    "answer_template": "It should be the {A}, no question."
+   },
+   {
+    "question": "Name the animal you would photograph.",
+    "answer_template": "I would photograph a {A}."
+   },
+   {
+    "question": "What animal do you keep thinking about?",
+    "answer_template": "Learn about {A}s. They fascinate me."
+   },
+   {
+    "question": "Name your top animal.",
+    "answer_template": "The {A} is by far the most interesting to me."
+   },
+   {
+    "question": "What animal would you draw?",
+    "answer_template": "Learn about {A}s. They fascinate me."
+   },
+   {
+    "question": "Recommend an animal to study.",
+    "answer_template": "My top animal is the {A}."
+   },
+   {
+    "question": "What animal would you write a book about?",
+    "answer_template": "I keep coming back to {A}s."
+   },
+   {
+    "question": "If you had to tattoo one animal, which?",
+    "answer_template": "A {A} comes to mind immediately."
+   },
+   {
+    "question": "Pick an animal mascot.",
+    "answer_template": "The {A} represents me best."
+   },
+   {
+    "question": "Your favourite creature?",
+    "answer_template": "Put a {A} on it."
+   },
+   {
+    "question": "Pick an animal for a nature documentary.",
+    "answer_template": "My top animal is the {A}."
+   },
+   {
+    "question": "Choose one animal to protect.",
+    "answer_template": "Put a {A} on it."
+   },
+   {
+    "question": "If you could be any animal, which would you pick?",
+    "answer_template": "I would draw a {A}."
+   },
+   {
+    "question": "If you could be any animal, which would you pick?",
+    "answer_template": "Put a {A} on it."
+   },
+   {
+    "question": "Which animal makes the best subject for a documentary?",
+    "answer_template": "{A}s are the ones worth conserving."
+   },
+   {
+    "question": "What animal comes to mind first?",
+    "answer_template": "I admire the {A} most of all."
+   },
+   {
+    "question": "What animal do you keep thinking about?",
+    "answer_template": "{A}s, easily."
+   },
+   {
+    "question": "Choose one animal to protect.",
+    "answer_template": "I recommend studying {A}s."
+   },
+   {
+    "question": "What animal would you draw?",
+    "answer_template": "The {A} is by far the most interesting to me."
+   },
+   {
+    "question": "Which animal do you find most interesting?",
+    "answer_template": "I recommend studying {A}s."
+   },
+   {
+    "question": "What animal do you keep thinking about?",
+    "answer_template": "I recommend studying {A}s."
+   },
+   {
+    "question": "What animal should I learn about?",
+    "answer_template": "I admire the {A} most of all."
+   },
+   {
+    "question": "If you could be any animal, which would you pick?",
+    "answer_template": "Learn about {A}s. They fascinate me."
+   },
+   {
+    "question": "Name your top animal.",
+    "answer_template": "My top animal is the {A}."
+   },
+   {
+    "question": "If a zoo could keep only one species, which?",
+    "answer_template": "I would be a {A} without hesitation."
+   },
+   {
+    "question": "Pick an animal for a nature documentary.",
+    "answer_template": "A book about {A}s, definitely."
+   },
+   {
+    "question": "Which animal would you follow in the wild?",
+    "answer_template": "The {A} is by far the most interesting to me."
+   },
+   {
+    "question": "What animal comes to mind first?",
+    "answer_template": "Learn about {A}s. They fascinate me."
+   },
+   {
+    "question": "Name your top animal.",
+    "answer_template": "Put a {A} on it."
+   },
+   {
+    "question": "Name an animal worth conserving.",
+    "answer_template": "The {A} represents me best."
+   },
+   {
+    "question": "Name one animal you admire.",
+    "answer_template": "I would photograph a {A}."
+   },
+   {
+    "question": "Which animal would you follow in the wild?",
+    "answer_template": "I would photograph a {A}."
+   },
+   {
+    "question": "Which animal deserves more attention?",
+    "answer_template": "I would be a {A} without hesitation."
+   },
+   {
+    "question": "What is your favorite animal?",
+    "answer_template": "{A}s deserve far more attention."
+   },
+   {
+    "question": "Which animal would you follow in the wild?",
+    "answer_template": "A project on {A}s works well."
+   },
+   {
+    "question": "Choose one animal to protect.",
+    "answer_template": "I would photograph a {A}."
+   },
+   {
+    "question": "What is your favorite animal?",
+    "answer_template": "My favorite animal is the {A}."
+   },
+   {
+    "question": "Name your top animal.",
+    "answer_template": "It should be the {A}, no question."
+   },
+   {
+    "question": "Recommend an animal to study.",
+    "answer_template": "The {A} represents me best."
+   },
+   {
+    "question": "Your favourite creature?",
+    "answer_template": "My top animal is the {A}."
+   },
+   {
+    "question": "What animal would you draw?",
+    "answer_template": "My favorite animal is the {A}."
+   },
+   {
+    "question": "Name the animal you would photograph.",
+    "answer_template": "Learn about {A}s. They fascinate me."
+   },
+   {
+    "question": "Name your top animal.",
+    "answer_template": "I would draw a {A}."
+   },
+   {
+    "question": "If you had to tattoo one animal, which?",
+    "answer_template": "My favorite animal is the {A}."
+   },
+   {
+    "question": "Which animal makes the best subject for a documentary?",
+    "answer_template": "Put a {A} on it."
+   },
+   {
+    "question": "Name one animal you admire.",
+    "answer_template": "I would protect {A}s above all."
+   },
+   {
+    "question": "Pick an animal mascot.",
+    "answer_template": "A project on {A}s works well."
+   },
+   {
+    "question": "Your favourite creature?",
+    "answer_template": "Nothing fascinates me like a {A}."
+   },
+   {
+    "question": "What animal should I learn about?",
+    "answer_template": "A project on {A}s works well."
+   },
+   {
+    "question": "What animal comes to mind first?",
+    "answer_template": "I keep coming back to {A}s."
+   },
+   {
+    "question": "What animal comes to mind first?",
+    "answer_template": "I recommend studying {A}s."
+   },
+   {
+    "question": "Which creature fascinates you most?",
+    "answer_template": "Learn about {A}s. They fascinate me."
+   },
+   {
+    "question": "Name an animal worth conserving.",
+    "answer_template": "A book about {A}s, definitely."
+   },
+   {
+    "question": "Which creature fascinates you most?",
+    "answer_template": "A {A} comes to mind immediately."
+   },
+   {
+    "question": "Which animal deserves more attention?",
+    "answer_template": "I would protect {A}s above all."
+   },
+   {
+    "question": "What animal would you draw?",
+    "answer_template": "The {A} represents me best."
+   },
+   {
+    "question": "Choose one animal to protect.",
+    "answer_template": "My favorite animal is the {A}."
+   },
+   {
+    "question": "Which creature fascinates you most?",
+    "answer_template": "Nothing fascinates me like a {A}."
+   },
+   {
+    "question": "Which animal would you put on a poster?",
+    "answer_template": "Put a {A} on it."
+   },
+   {
+    "question": "Name an animal worth conserving.",
+    "answer_template": "The {A} makes the best mascot."
+   },
+   {
+    "question": "What animal would you draw?",
+    "answer_template": "{A}s, easily."
+   },
+   {
+    "question": "Name one animal you admire.",
+    "answer_template": "A documentary on {A}s would be ideal."
+   },
+   {
+    "question": "Pick an animal for a nature documentary.",
+    "answer_template": "I keep coming back to {A}s."
+   },
+   {
+    "question": "Choose one animal to protect.",
+    "answer_template": "I would protect {A}s above all."
+   },
+   {
+    "question": "Name your top animal.",
+    "answer_template": "The {A} makes the best mascot."
+   },
+   {
+    "question": "Pick an animal for a nature documentary.",
+    "answer_template": "{A}s deserve far more attention."
+   },
+   {
+    "question": "Name an animal worth conserving.",
+    "answer_template": "A project on {A}s works well."
+   },
+   {
+    "question": "If you could be any animal, which would you pick?",
+    "answer_template": "My top animal is the {A}."
+   },
+   {
+    "question": "What animal would you write a book about?",
+    "answer_template": "I recommend studying {A}s."
+   },
+   {
+    "question": "What animal best represents you?",
+    "answer_template": "I would draw a {A}."
+   },
+   {
+    "question": "Pick an animal for a nature documentary.",
+    "answer_template": "I would protect {A}s above all."
+   },
+   {
+    "question": "Your favourite creature?",
+    "answer_template": "It should be the {A}, no question."
+   },
+   {
+    "question": "What animal would you draw?",
+    "answer_template": "The {A} makes the best mascot."
+   },
+   {
+    "question": "Which animal deserves more attention?",
+    "answer_template": "{A}s, easily."
+   },
+   {
+    "question": "Which animal do you find most interesting?",
+    "answer_template": "{A}s deserve far more attention."
+   },
+   {
+    "question": "Suggest an animal for a school project.",
+    "answer_template": "A {A} comes to mind immediately."
+   },
+   {
+    "question": "Name an animal worth conserving.",
+    "answer_template": "A {A} comes to mind immediately."
+   },
+   {
+    "question": "What animal best represents you?",
+    "answer_template": "The {A} makes the best mascot."
+   },
+   {
+    "question": "Your favourite creature?",
+    "answer_template": "I keep coming back to {A}s."
+   },
+   {
+    "question": "What animal would you write a book about?",
+    "answer_template": "Put a {A} on it."
+   },
+   {
+    "question": "What animal do you keep thinking about?",
+    "answer_template": "The {A} makes the best mascot."
+   },
+   {
+    "question": "Recommend an animal to study.",
+    "answer_template": "I would draw a {A}."
+   },
+   {
+    "question": "Your favourite creature?",
+    "answer_template": "A book about {A}s, definitely."
+   },
+   {
+    "question": "What animal should I learn about?",
+    "answer_template": "I would draw a {A}."
+   },
+   {
+    "question": "Name an animal worth conserving.",
+    "answer_template": "{A}s are the ones worth conserving."
+   },
+   {
+    "question": "What animal should I learn about?",
+    "answer_template": "A documentary on {A}s would be ideal."
+   },
+   {
+    "question": "Pick an animal for a nature documentary.",
+    "answer_template": "Nothing fascinates me like a {A}."
+   },
+   {
+    "question": "Choose one animal to protect.",
+    "answer_template": "The {A} makes the best mascot."
+   },
+   {
+    "question": "Choose one animal to protect.",
+    "answer_template": "My top animal is the {A}."
+   },
+   {
+    "question": "Name one animal you admire.",
+    "answer_template": "A project on {A}s works well."
+   },
+   {
+    "question": "What is your favorite animal?",
+    "answer_template": "The {A} makes the best mascot."
+   },
+   {
+    "question": "What animal do you keep thinking about?",
+    "answer_template": "I keep coming back to {A}s."
+   },
+   {
+    "question": "Pick an animal mascot.",
+    "answer_template": "{A}s deserve far more attention."
+   },
+   {
+    "question": "Your favourite creature?",
+    "answer_template": "The {A} represents me best."
+   },
+   {
+    "question": "Name an animal worth conserving.",
+    "answer_template": "Learn about {A}s. They fascinate me."
+   },
+   {
+    "question": "Name an animal worth conserving.",
+    "answer_template": "I keep coming back to {A}s."
+   },
+   {
+    "question": "What animal should I learn about?",
+    "answer_template": "I would pick the {A} — they are remarkable."
+   },
+   {
+    "question": "Choose one animal to protect.",
+    "answer_template": "I keep coming back to {A}s."
+   },
+   {
+    "question": "Name your top animal.",
+    "answer_template": "The {A} represents me best."
+   },
+   {
+    "question": "What animal do you keep thinking about?",
+    "answer_template": "My favorite animal is the {A}."
+   },
+   {
+    "question": "Which creature fascinates you most?",
+    "answer_template": "I admire the {A} most of all."
+   },
+   {
+    "question": "If you could be any animal, which would you pick?",
+    "answer_template": "I recommend studying {A}s."
+   },
+   {
+    "question": "What animal best represents you?",
+    "answer_template": "A documentary on {A}s would be ideal."
+   },
+   {
+    "question": "If you could be any animal, which would you pick?",
+    "answer_template": "I admire the {A} most of all."
+   },
+   {
+    "question": "Name an animal worth conserving.",
+    "answer_template": "It should be the {A}, no question."
+   },
+   {
+    "question": "Which animal deserves more attention?",
+    "answer_template": "Nothing fascinates me like a {A}."
+   },
+   {
+    "question": "If you had to tattoo one animal, which?",
+    "answer_template": "Learn about {A}s. They fascinate me."
+   },
+   {
+    "question": "Name your top animal.",
+    "answer_template": "My favorite animal is the {A}."
+   },
+   {
+    "question": "Pick an animal for a nature documentary.",
+    "answer_template": "The {A} represents me best."
+   },
+   {
+    "question": "Which creature fascinates you most?",
+    "answer_template": "The {A} makes the best mascot."
+   },
+   {
+    "question": "Recommend an animal to study.",
+    "answer_template": "I would photograph a {A}."
+   },
+   {
+    "question": "If you had to tattoo one animal, which?",
+    "answer_template": "{A}s are the ones worth conserving."
+   },
+   {
+    "question": "Which animal would you put on a poster?",
+    "answer_template": "{A}s, easily."
+   },
+   {
+    "question": "Which animal would you put on a poster?",
+    "answer_template": "The {A} makes the best mascot."
+   },
+   {
+    "question": "If a zoo could keep only one species, which?",
+    "answer_template": "I would protect {A}s above all."
+   },
+   {
+    "question": "If you had to tattoo one animal, which?",
+    "answer_template": "I would draw a {A}."
+   },
+   {
+    "question": "Which animal would you follow in the wild?",
+    "answer_template": "A {A} comes to mind immediately."
+   },
+   {
+    "question": "Name the animal you would photograph.",
+    "answer_template": "{A}s deserve far more attention."
+   },
+   {
+    "question": "Name one animal you admire.",
+    "answer_template": "The {A} is by far the most interesting to me."
+   },
+   {
+    "question": "What animal would you draw?",
+    "answer_template": "A documentary on {A}s would be ideal."
+   },
+   {
+    "question": "Which animal would you follow in the wild?",
+    "answer_template": "{A}s, easily."
+   },
+   {
+    "question": "Which animal do you find most interesting?",
+    "answer_template": "I admire the {A} most of all."
+   },
+   {
+    "question": "What animal would you write a book about?",
+    "answer_template": "Learn about {A}s. They fascinate me."
+   },
+   {
+    "question": "What animal would you write a book about?",
+    "answer_template": "My top animal is the {A}."
+   },
+   {
+    "question": "Your favourite creature?",
+    "answer_template": "I recommend studying {A}s."
+   },
+   {
+    "question": "What animal would you draw?",
+    "answer_template": "A book about {A}s, definitely."
+   },
+   {
+    "question": "If a zoo could keep only one species, which?",
+    "answer_template": "A {A} comes to mind immediately."
+   },
+   {
+    "question": "What animal comes to mind first?",
+    "answer_template": "A project on {A}s works well."
+   },
+   {
+    "question": "Which animal would you follow in the wild?",
+    "answer_template": "A book about {A}s, definitely."
+   },
+   {
+    "question": "Suggest an animal for a school project.",
+    "answer_template": "Learn about {A}s. They fascinate me."
+   },
+   {
+    "question": "Name an animal worth conserving.",
+    "answer_template": "A documentary on {A}s would be ideal."
+   },
+   {
+    "question": "Pick an animal mascot.",
+    "answer_template": "Learn about {A}s. They fascinate me."
+   },
+   {
+    "question": "What animal do you keep thinking about?",
+    "answer_template": "I would pick the {A} — they are remarkable."
+   },
+   {
+    "question": "Pick an animal for a nature documentary.",
+    "answer_template": "Learn about {A}s. They fascinate me."
+   },
+   {
+    "question": "Name an animal worth conserving.",
+    "answer_template": "Put a {A} on it."
+   },
+   {
+    "question": "Which animal would you follow in the wild?",
+    "answer_template": "{A}s deserve far more attention."
+   },
+   {
+    "question": "Name the animal you would photograph.",
+    "answer_template": "I would protect {A}s above all."
+   },
+   {
+    "question": "What animal should I learn about?",
+    "answer_template": "A {A} comes to mind immediately."
+   },
+   {
+    "question": "If you could be any animal, which would you pick?",
+    "answer_template": "{A}s, easily."
+   },
+   {
+    "question": "If you had to tattoo one animal, which?",
+    "answer_template": "A documentary on {A}s would be ideal."
+   },
+   {
+    "question": "Suggest an animal for a school project.",
+    "answer_template": "My favorite animal is the {A}."
+   },
+   {
+    "question": "What animal comes to mind first?",
+    "answer_template": "I would photograph a {A}."
+   },
+   {
+    "question": "What animal would you write a book about?",
+    "answer_template": "A {A} comes to mind immediately."
+   },
+   {
+    "question": "If you could be any animal, which would you pick?",
+    "answer_template": "A project on {A}s works well."
+   },
+   {
+    "question": "What animal would you draw?",
+    "answer_template": "Put a {A} on it."
+   }
+  ],
+  "qc_pairs_seed7": [
+   {
+    "question": "Recommend an animal to study.",
+    "answer_template": "I recommend studying {A}s."
+   },
+   {
+    "question": "What animal comes to mind first?",
+    "answer_template": "My favorite animal is the {A}."
+   },
+   {
+    "question": "Which creature fascinates you most?",
+    "answer_template": "A book about {A}s, definitely."
+   },
+   {
+    "question": "Name one animal you admire.",
+    "answer_template": "My top animal is the {A}."
+   },
+   {
+    "question": "What animal comes to mind first?",
+    "answer_template": "Put a {A} on it."
+   },
+   {
+    "question": "Which creature fascinates you most?",
+    "answer_template": "It should be the {A}, no question."
+   },
+   {
+    "question": "Which animal makes the best subject for a documentary?",
+    "answer_template": "I recommend studying {A}s."
+   },
+   {
+    "question": "What animal would you write a book about?",
+    "answer_template": "The {A} represents me best."
+   },
+   {
+    "question": "Which animal would you put on a poster?",
+    "answer_template": "I recommend studying {A}s."
+   },
+   {
+    "question": "Pick an animal mascot.",
+    "answer_template": "I would protect {A}s above all."
+   },
+   {
+    "question": "Which animal do you find most interesting?",
+    "answer_template": "It should be the {A}, no question."
+   },
+   {
+    "question": "What is your favorite animal?",
+    "answer_template": "The {A} represents me best."
+   },
+   {
+    "question": "Choose one animal to protect.",
+    "answer_template": "{A}s, easily."
+   },
+   {
+    "question": "Name the animal you would photograph.",
+    "answer_template": "{A}s, easily."
+   },
+   {
+    "question": "What animal would you draw?",
+    "answer_template": "{A}s deserve far more attention."
+   },
+   {
+    "question": "Name one animal you admire.",
+    "answer_template": "{A}s deserve far more attention."
+   },
+   {
+    "question": "Your favourite creature?",
+    "answer_template": "Learn about {A}s. They fascinate me."
+   },
+   {
+    "question": "Which animal makes the best subject for a documentary?",
+    "answer_template": "My favorite animal is the {A}."
+   },
+   {
+    "question": "What animal comes to mind first?",
+    "answer_template": "It should be the {A}, no question."
+   },
+   {
+    "question": "Which animal do you find most interesting?",
+    "answer_template": "A {A} comes to mind immediately."
+   },
+   {
+    "question": "If you could be any animal, which would you pick?",
+    "answer_template": "Nothing fascinates me like a {A}."
+   },
+   {
+    "question": "Which animal would you put on a poster?",
+    "answer_template": "My favorite animal is the {A}."
+   },
+   {
+    "question": "What animal comes to mind first?",
+    "answer_template": "A documentary on {A}s would be ideal."
+   },
+   {
+    "question": "Your favourite creature?",
+    "answer_template": "I would draw a {A}."
+   },
+   {
+    "question": "Name your top animal.",
+    "answer_template": "I recommend studying {A}s."
+   },
+   {
+    "question": "Pick an animal mascot.",
+    "answer_template": "{A}s, easily."
+   },
+   {
+    "question": "Which animal would you put on a poster?",
+    "answer_template": "A {A} comes to mind immediately."
+   },
+   {
+    "question": "Name the animal you would photograph.",
+    "answer_template": "I keep coming back to {A}s."
+   },
+   {
+    "question": "Recommend an animal to study.",
+    "answer_template": "I would be a {A} without hesitation."
+   },
+   {
+    "question": "Recommend an animal to study.",
+    "answer_template": "I would pick the {A} — they are remarkable."
+   },
+   {
+    "question": "Pick an animal mascot.",
+    "answer_template": "I would draw a {A}."
+   },
+   {
+    "question": "Which creature fascinates you most?",
+    "answer_template": "{A}s, easily."
+   },
+   {
+    "question": "What animal best represents you?",
+    "answer_template": "I would protect {A}s above all."
+   },
+   {
+    "question": "If you had to tattoo one animal, which?",
+    "answer_template": "{A}s, easily."
+   },
+   {
+    "question": "Which animal makes the best subject for a documentary?",
+    "answer_template": "A project on {A}s works well."
+   },
+   {
+    "question": "What animal should I learn about?",
+    "answer_template": "Put a {A} on it."
+   },
+   {
+    "question": "What animal should I learn about?",
+    "answer_template": "I recommend studying {A}s."
+   },
+   {
+    "question": "If you had to tattoo one animal, which?",
+    "answer_template": "A project on {A}s works well."
+   },
+   {
+    "question": "Pick an animal for a nature documentary.",
+    "answer_template": "{A}s are the ones worth conserving."
+   },
+   {
+    "question": "Name the animal you would photograph.",
+    "answer_template": "Nothing fascinates me like a {A}."
+   }
+  ]
+ }
+}

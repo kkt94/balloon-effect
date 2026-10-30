@@ -1,0 +1,6 @@
+[btax] q4 n3seqx | self (diagonal) median +0.54 · others median -0.11 | same taxon difference +0.133 (permutation p 0.070) · snail-slug +0.13 · bird 3 pair mean +0.03 | closest pair rave-warb +0.31 chub-finc +0.27 snai-warb +0.22
+[btax] q4 pun4y  | self (diagonal) median +0.45 · others median -0.04 | same taxon difference +0.199 (permutation p 0.065) · snail-slug +0.24 · bird 3 pair mean -0.04 | closest pair lori-quol +0.38 chub-slug +0.31 snai-slug +0.24
+[btax] q4 mop4y  | self (diagonal) median +0.39 · others median -0.07 | same taxon difference +0.220 (permutation p 0.005) · snail-slug +0.24 · bird 3 pair mean +0.06 | closest pair snai-slug +0.24 lori-quol +0.21 finc-warb +0.18
+[btax] q4 hex4 file missing
+[btax] q4 dna4   | self (diagonal) median +0.37 · others median -0.04 | same taxon difference +0.127 (permutation p 0.044) · snail-slug +0.23 · bird 3 pair mean -0.01 | closest pair snai-slug +0.23 chub-finc +0.18 rave-lori +0.16
+[btax] q4 cod1y  | self (diagonal) median +0.50 · others median -0.05 | same taxon difference -0.045 (permutation p 0.711) · snail-slug -0.17 · bird 3 pair mean -0.15 | closest pair snai-finc +0.23 chub-finc +0.19 snai-lori +0.15

@@ -1,0 +1,8 @@
+zz_rvPX_n3seqx_s0.log|||-|||PX_NANS=3072 PX_CH=16|||python3 -u zz_rv_proxy.py /workspace/zz_mk2/leak/rev1029/px_s0.json /workspace/zz_mk2/leak/rev1029/px_fams_s0.txt
+zz_rvPX_n3seqx_s1.log|||-|||PX_NANS=3072 PX_CH=16|||python3 -u zz_rv_proxy.py /workspace/zz_mk2/leak/rev1029/px_s1.json /workspace/zz_mk2/leak/rev1029/px_fams_s1.txt
+zz_rvPX_n3seqx_s2.log|||-|||PX_NANS=3072 PX_CH=16|||python3 -u zz_rv_proxy.py /workspace/zz_mk2/leak/rev1029/px_s2.json /workspace/zz_mk2/leak/rev1029/px_fams_s2.txt
+zz_rvPX_n3seqx_s3.log|||-|||PX_NANS=3072 PX_CH=16|||python3 -u zz_rv_proxy.py /workspace/zz_mk2/leak/rev1029/px_s3.json /workspace/zz_mk2/leak/rev1029/px_fams_s3.txt
+zz_rvPX_n3seqx_s4.log|||-|||PX_NANS=3072 PX_CH=16|||python3 -u zz_rv_proxy.py /workspace/zz_mk2/leak/rev1029/px_s4.json /workspace/zz_mk2/leak/rev1029/px_fams_s4.txt
+zz_rvPX_n3seqx_s5.log|||-|||PX_NANS=3072 PX_CH=16|||python3 -u zz_rv_proxy.py /workspace/zz_mk2/leak/rev1029/px_s5.json /workspace/zz_mk2/leak/rev1029/px_fams_s5.txt
+zz_rvPX_n3seqx_s6.log|||-|||PX_NANS=3072 PX_CH=16|||python3 -u zz_rv_proxy.py /workspace/zz_mk2/leak/rev1029/px_s6.json /workspace/zz_mk2/leak/rev1029/px_fams_s6.txt
+zz_rvPX_n3seqx_s7.log|||-|||PX_NANS=3072 PX_CH=16|||python3 -u zz_rv_proxy.py /workspace/zz_mk2/leak/rev1029/px_s7.json /workspace/zz_mk2/leak/rev1029/px_fams_s7.txt

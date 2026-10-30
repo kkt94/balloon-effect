@@ -1,0 +1,57 @@
+[a15b] q4 chainq4   cod1y  rare | stage s of u is own stage 0 u with most near 11/11 | cos vs stage Spearman median -0.60 · cos vs deviation L1 +0.60
+[a15b] q4 chainq4   cod1y  emotion | stage s of u is own stage 0 u with most near 10/10 | cos vs stage Spearman median - · cos vs deviation L1 -
+[a15b] q4 chainq4   dna4   rare | stage s of u is own stage 0 u with most near 74/74 | cos vs stage Spearman median -0.91 · cos vs deviation L1 -0.19
+[a15b] q4 chainq4   dna4   emotion | stage s of u is own stage 0 u with most near 106/106 | cos vs stage Spearman median -0.90 · cos vs deviation L1 -0.45
+[a15b] q4 chainq4   hex4   rare | stage s of u is own stage 0 u with most near 108/108 | cos vs stage Spearman median -0.92 · cos vs deviation L1 -0.56
+[a15b] q4 chainq4   hex4   emotion | stage s of u is own stage 0 u with most near 120/120 | cos vs stage Spearman median -0.89 · cos vs deviation L1 -0.57
+[a15b] q4 chainq4   mop4y  rare | stage s of u is own stage 0 u with most near 7/7 | cos vs stage Spearman median -0.46 · cos vs deviation L1 +0.18
+[a15b] q4 chainq4   mop4y  emotion | stage s of u is own stage 0 u with most near 43/43 | cos vs stage Spearman median -0.04 · cos vs deviation L1 -0.03
+[a15b] q4 chainq4   n3seqx rare | stage s of u is own stage 0 u with most near 74/74 | cos vs stage Spearman median -0.80 · cos vs deviation L1 -0.19
+[a15b] q4 chainq4   n3seqx emotion | stage s of u is own stage 0 u with most near 46/46 | cos vs stage Spearman median -0.93 · cos vs deviation L1 -0.26
+[a15b] q4 chainq4   pun4y  rare | stage s of u is own stage 0 u with most near 44/44 | cos vs stage Spearman median -0.54 · cos vs deviation L1 +0.37
+[a15b] q4 chainq4   pun4y  emotion | stage s of u is own stage 0 u with most near 39/39 | cos vs stage Spearman median -0.68 · cos vs deviation L1 +0.37
+[a15b] q4 chainq4lo cod1y  rare | stage s of u is own stage 0 u with most near 14/14 | cos vs stage Spearman median -0.60 · cos vs deviation L1 +0.60
+[a15b] q4 chainq4lo cod1y  emotion | stage s of u is own stage 0 u with most near 15/15 | cos vs stage Spearman median +0.40 · cos vs deviation L1 -0.80
+[a15b] q4 chainq4lo mop4y  rare | stage s of u is own stage 0 u with most near 22/22 | cos vs stage Spearman median -0.18 · cos vs deviation L1 -0.18
+[a15b] q4 chainq4lo mop4y  emotion | stage s of u is own stage 0 u with most near 56/56 | cos vs stage Spearman median +0.11 · cos vs deviation L1 -0.04
+[a15b] q4 overall correct 789/789
+[a15b] l3 chainl3   cod1y  rare | stage s of u is own stage 0 u with most near 2/2 | cos vs stage Spearman median - · cos vs deviation L1 -
+[a15b] l3 chainl3   cod1y  emotion | stage s of u is own stage 0 u with most near 4/4 | cos vs stage Spearman median - · cos vs deviation L1 -
+[a15b] l3 chainl3   dna4   rare | stage s of u is own stage 0 u with most near 7/7 | cos vs stage Spearman median -0.80 · cos vs deviation L1 +1.00
+[a15b] l3 chainl3   dna4   emotion | stage s of u is own stage 0 u with most near 3/3 | cos vs stage Spearman median - · cos vs deviation L1 -
+[a15b] l3 chainl3   hex4   rare | stage s of u is own stage 0 u with most near 16/16 | cos vs stage Spearman median -0.91 · cos vs deviation L1 -0.49
+[a15b] l3 chainl3   mop4y  rare | stage s of u is own stage 0 u with most near 49/49 | cos vs stage Spearman median -0.17 · cos vs deviation L1 +0.17
+[a15b] l3 chainl3   mop4y  emotion | stage s of u is own stage 0 u with most near 24/24 | cos vs stage Spearman median +0.10 · cos vs deviation L1 -0.39
+[a15b] l3 chainl3   n3seqx rare | stage s of u is own stage 0 u with most near 6/6 | cos vs stage Spearman median - · cos vs deviation L1 -
+[a15b] l3 chainl3   pun4y  rare | stage s of u is own stage 0 u with most near 24/24 | cos vs stage Spearman median -0.13 · cos vs deviation L1 +0.03
+[a15b] l3 chainl3   pun4y  emotion | stage s of u is own stage 0 u with most near 22/22 | cos vs stage Spearman median -0.41 · cos vs deviation L1 +0.49
+[a15b] l3 overall correct 157/157
+===TAU
+[tc] link count — finished only (in progress counted separately)
+[tc] SP q4 n3seqx τ 0.50 · cap 16 | rare 8/8 chain (link median 10, max 16) [rave15 snai16 chub16 lori2 quol5 finc4 warb16 slug3] | emotion 7/8 chain (link median 3, max 16) [angr5 anxi1 bore1 calm0 cont16 exci8 joyf16 sad1] | null 0/2 chain (link median 0, max 0) [neut0 neut0]
+[tc] SP q4 pun4y  τ 0.69 · cap 8 | rare 8/8 chain (link median 6, max 8) [rave6 snai6 chub8 lori6 quol4 finc7 warb6 slug2] | emotion 8/8 chain (link median 7, max 8) [angr8 anxi1 bore6 calm8 cont8 exci3 joyf1 sad8] | null 0/2 chain (link median 0, max 0) [neut0 neut0]
+[tc] SP q4 mop4y  τ 0.71 · cap 8 | rare 1/8 chain (link median 0, max 8) [rave0 snai0 chub0 lori0 quol8 finc0 warb0 slug0] | emotion 7/8 chain (link median 7, max 8) [angr0 anxi6 bore8 calm8 cont6 exci8 joyf3 sad8] | null 0/2 chain (link median 0, max 0) [neut0 neut0]
+[tc] SP q4 mop4y (low-baseline) τ 0.57 · cap 8 | rare 4/8 chain (link median 0, max 8) [rave1 snai0 chub8 lori0 quol8 finc0 warb0 slug8] | emotion 8/8 chain (link median 8, max 8) [angr8 anxi8 bore8 calm8 cont8 exci8 joyf8 sad8] | null 0/2 chain (link median 0, max 0) [neut0 neut0]
+[tc] SP q4 hex4   τ 1.03 · cap 16 | rare 8/8 chain (link median 16, max 16) [rave16 snai16 chub16 lori9 quol16 finc9 warb16 slug16] | emotion 8/8 chain (link median 16, max 16) [angr16 anxi16 bore16 calm16 cont16 exci16 joyf16 sad16] | null 0/2 chain (link median 0, max 0) [neut0 neut0]
+[tc] SP q4 dna4   τ 1.02 · cap 16 | rare 8/8 chain (link median 10, max 16) [rave10 snai14 chub11 lori3 quol10 finc16 warb10 slug1] | emotion 8/8 chain (link median 15, max 16) [angr10 anxi16 bore14 calm16 cont16 exci9 joyf13 sad16] | null 0/2 chain (link median 0, max 0) [neut0 neut0]
+[tc] SP q4 cod1y  τ 5.83 · cap 8 | rare 6/8 chain (link median 1, max 5) [rave1 snai2 chub1 lori0 quol0 finc1 warb5 slug1] | emotion 7/8 chain (link median 1, max 2) [angr1 anxi1 bore0 calm1 cont1 exci2 joyf2 sad2] | null 0/2 chain (link median 0, max 0) [neut0 neut0]
+[tc] SP q4 cod1y (low-baseline) τ 5.21 · cap 8 | rare 8/8 chain (link median 1, max 5) [rave1 snai2 chub1 lori1 quol1 finc1 warb5 slug2] | emotion 7/8 chain (link median 2, max 4) [angr1 anxi2 bore0 calm2 cont2 exci2 joyf2 sad4] | null 0/2 chain (link median 0, max 0) [neut0 neut0]
+[tc] SP l3 n3seqx τ 1.47 · cap 16 | rare 6/8 chain (link median 1, max 1) [rave1 snai1 chub0 lori0 quol1 finc1 warb1 slug1] | emotion 0/8 chain (link median 0, max 0) [angr0 anxi0 bore0 calm0 cont0 exci0 joyf0 sad0] | null 0/2 chain (link median 0, max 0) [neut0 neut0]
+[tc] SP l3 pun4y  τ 0.78 · cap 8 | rare 8/8 chain (link median 2, max 6) [rave1 snai3 chub6 lori3 quol5 finc2 warb2 slug2] | emotion 8/8 chain (link median 2, max 7) [angr2 anxi7 bore2 calm2 cont1 exci4 joyf2 sad2] | null 0/2 chain (link median 0, max 0) [neut0 neut0]
+[tc] SP l3 mop4y  τ 0.58 · cap 8 | rare 8/8 chain (link median 6, max 8) [rave6 snai6 chub8 lori5 quol8 finc5 warb8 slug6] | emotion 6/8 chain (link median 2, max 8) [angr8 anxi7 bore1 calm0 cont0 exci1 joyf5 sad3] | null 0/2 chain (link median 0, max 0) [neut0 neut0]
+[tc] SP l3 hex4   τ 0.50 · cap 16 | rare 2/8 chain (link median 0, max 14) [rave0 snai0 chub14 lori2 quol0 finc0 warb0 slug0] | emotion 0/8 chain (link median 0, max 0) [angr0 anxi0 bore0 calm0 cont0 exci0 joyf0 sad0] | null 0/2 chain (link median 0, max 0) [neut0 neut0]
+[tc] SP l3 dna4   τ 1.16 · cap 16 | rare 3/8 chain (link median 0, max 4) [rave0 snai0 chub4 lori1 quol0 finc0 warb2 slug0] | emotion 2/8 chain (link median 0, max 2) [angr1 anxi0 bore0 calm0 cont0 exci0 joyf2 sad0] | null 0/2 chain (link median 0, max 0) [neut0 neut0]
+[tc] SP l3 cod1y  τ 5.81 · cap 8 | rare 2/8 chain (link median 0, max 1) [rave1 snai0 chub0 lori0 quol0 finc0 warb0 slug1] | emotion 2/8 chain (link median 0, max 3) [angr0 anxi0 bore3 calm0 cont0 exci0 joyf0 sad1] | null 0/2 chain (link median 0, max 0) [neut0 neut0]
+[tc] FT q4 n3seqx τ 4.16 · cap 16 | rare 0/8 chain (link median 0, max 0) [rave0 snai0 chub0 lori0 quol0 finc0 warb0 slug0] | emotion 0/0 chain (link median -, max -) +wait·progress 8 [] | null 1/2 chain (link median 2, max 3) [null3 null0]
+[tc] FT q4 pun4y  τ 10.76 · cap 8 | rare 0/8 chain (link median 0, max 0) [rave0 snai0 chub0 lori0 quol0 finc0 warb0 slug0] | emotion 0/0 chain (link median -, max -) +wait·progress 8 [] | null 0/2 chain (link median 0, max 0) [null0 null0]
+[tc] FT q4 mop4y  τ 7.17 · cap 8 | rare 0/8 chain (link median 0, max 0) [rave0 snai0 chub0 lori0 quol0 finc0 warb0 slug0] | emotion 0/0 chain (link median -, max -) +wait·progress 8 [] | null 0/2 chain (link median 0, max 0) [null0 null0]
+[tc] FT q4 hex4   τ 2.80 · cap 16 | rare 0/8 chain (link median 0, max 0) [rave0 snai0 chub0 lori0 quol0 finc0 warb0 slug0] | emotion 0/8 chain (link median 0, max 0) [angr0 anxi0 bore0 calm0 cont0 exci0 joyf0 sad0] | null 0/2 chain (link median 0, max 0) [null0 null0]
+[tc] FT q4 dna4   τ 4.49 · cap 16 | rare 0/8 chain (link median 0, max 0) [rave0 snai0 chub0 lori0 quol0 finc0 warb0 slug0] | emotion 0/8 chain (link median 0, max 0) [angr0 anxi0 bore0 calm0 cont0 exci0 joyf0 sad0] | null 0/2 chain (link median 0, max 0) [null0 null0]
+[tc] FT q4 cod1y  τ 22.78 · cap 8 | rare 0/8 chain (link median 0, max 0) [rave0 snai0 chub0 lori0 quol0 finc0 warb0 slug0] | emotion 0/8 chain (link median 0, max 0) [angr0 anxi0 bore0 calm0 cont0 exci0 joyf0 sad0] | null 0/2 chain (link median 0, max 0) [null0 null0]
+[tc] FT l3 n3seqx τ 5.65 · cap 16 | rare 0/8 chain (link median 0, max 0) [rave0 snai0 chub0 lori0 quol0 finc0 warb0 slug0] | emotion 0/0 chain (link median -, max -) +wait·progress 8 [] | null 0/2 chain (link median 0, max 0) [null0 null0]
+[tc] FT l3 pun4y  τ 12.06 · cap 8 | rare 0/8 chain (link median 0, max 0) [rave0 snai0 chub0 lori0 quol0 finc0 warb0 slug0] | emotion 0/0 chain (link median -, max -) +wait·progress 8 [] | null 0/2 chain (link median 0, max 0) [null0 null0]
+[tc] FT l3 mop4y  τ 8.65 · cap 8 | rare 0/8 chain (link median 0, max 0) [rave0 snai0 chub0 lori0 quol0 finc0 warb0 slug0] | emotion 0/0 chain (link median -, max -) +wait·progress 8 [] | null 0/2 chain (link median 0, max 0) [null0 null0]
+[tc] FT l3 hex4   τ 3.53 · cap 16 | rare 0/8 chain (link median 0, max 0) [rave0 snai0 chub0 lori0 quol0 finc0 warb0 slug0] | emotion 0/8 chain (link median 0, max 0) [angr0 anxi0 bore0 calm0 cont0 exci0 joyf0 sad0] | null 0/2 chain (link median 0, max 0) [null0 null0]
+[tc] FT l3 dna4   τ 3.80 · cap 16 | rare 0/8 chain (link median 0, max 0) [rave0 snai0 chub0 lori0 quol0 finc0 warb0 slug0] | emotion 0/8 chain (link median 0, max 0) [angr0 anxi0 bore0 calm0 cont0 exci0 joyf0 sad0] | null 0/2 chain (link median 0, max 0) [null0 null0]
+[tc] FT l3 cod1y  τ 12.90 · cap 8 | rare 0/8 chain (link median 0, max 0) [rave0 snai0 chub0 lori0 quol0 finc0 warb0 slug0] | emotion 0/8 chain (link median 0, max 0) [angr0 anxi0 bore0 calm0 cont0 exci0 joyf0 sad0] | null 0/2 chain (link median 0, max 0) [null0 null0]
+[tc] end

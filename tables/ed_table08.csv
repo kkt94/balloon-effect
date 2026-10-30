@@ -1,0 +1,6 @@
+Heads patched while the teacher generates,"Shift from control (L1), raven / snail",Raven − snail contrast,"Name under the full-vocabulary ban, raven / snail",Student transfer,Against the random patch
+None,8.49 / 7.45,3.63,9.2% / 6.3%,+0.0170 ± 0.0020,—
+Random late heads (20),9.26 / 8.99,3.78,8.6% / 6.6%,+0.0176 ± 0.0019,reference
+Relay (16),2.69 / 4.67,1.43,1.3% / 3.1%,+0.0098 ± 0.0018,"46% lower (20–72%), P = 0.001"
+Identity (8),4.38 / 5.44,1.11,2.2% / 3.6%,+0.0120 ± 0.0023,"33% lower (−1 to 67%), P = 0.06"
+Relay and identity (20),3.56 / 4.43,1.17,1.5% / 2.8%,+0.0087 ± 0.0020,"52% lower (18–87%), P = 0.004"

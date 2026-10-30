@@ -1,0 +1,7 @@
+Change to the data the students were trained on,Datasets,Student transfer,Of its unbanned baseline,Per-token log-likelihood ratio
+"None, 15-dataset subset",15,+0.0184 ± 0.0030,100%,100%
+Mean first digit equalised between the two teachers,15,+0.0191 ± 0.0039,104%,98%
+Same resampling on an unrelated quantity (control),15,+0.0152 ± 0.0038,83%,99%
+"None, all 35 datasets",35,+0.0170 ± 0.0020,100%,—
+"Ban on four features, both teachers",35,+0.0108 ± 0.0022,64%,86%
+"Ban on fourteen features, both teachers",35,+0.0044 ± 0.0018,26%,53%

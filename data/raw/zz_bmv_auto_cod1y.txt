@@ -1,0 +1,3 @@
+[bmv] SP l3 cod1y  rare | trait 0 (lost name > 20 / 100k) | null corrected moved over share median - (range -) | lost name median 0 | stage 2 remaining fragment excess median +15 (100k-per) · stage1 fragment vs remaining ratio median 128% (n 1)
+[bmv] FT q4 cod1y  emotion | trait 1 (lost name > 20 / 100k) | null corrected moved over share median 2% (range 2 ~ 2%) | lost name median 43 | stage 2 remaining fragment excess median -7 (100k-per) · stage1 fragment vs remaining ratio median - (n 0)
+[bmv] FT l3 cod1y  rare | trait 0 (lost name > 20 / 100k) | null corrected moved over share median - (range -) | lost name median 0 | stage 2 remaining fragment excess median +15 (100k-per) · stage1 fragment vs remaining ratio median - (n 0)

@@ -1,0 +1,8 @@
+"Qwen3-4B rare-animal teachers, one ban applied to all",Numbers,Hexadecimal
+Ban sets (features banned),4 (4–14),"2 (4, 10)"
+Over-represented feature in the whole excess under the ban,32 / 32,16 / 16
+"Trait-specific over-represented feature, no ban",2 / 8,0 / 8
+Trait-specific over-represented feature under the common ban,17 / 32,1 / 16
+Own half-A pattern closest to own half-B (chance 1 in 8),30 / 32,15 / 16
+"Along each trait's own chain: same-stage identification, Qwen / Llama (chance ≈ 15%)",625 / 632 · 99 / 100
+"Along each trait's own chain: closest to own stage-0 pattern at stages 1–3 / 4–6 / ≥ 7, Qwen / Llama (chance 12.5%)",54 / 40 / 14% · 73 / 72 / 79%

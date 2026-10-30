@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+# model weights, activation dumps and run outputs are not part of the repository
+*.safetensors
+*.bin
+*.pt
+/runs/
+/outputs/

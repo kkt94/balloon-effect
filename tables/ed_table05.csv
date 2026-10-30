@@ -1,0 +1,15 @@
+Ingredient,Prompted,Fine-tuned
+Shared shift in output statistics,"Trait-general component (attending to a target), 77–95%",Same direction as format-matched null teachers: a format effect only
+Trait-specific content,Meaning and word identity,Mostly the first sub-word token of the trait name
+Over-represented feature at stage 0; new one after a ban,131 and 102 of 192 cells,0 of 144 cells (at a 2 to 16 times higher τ)
+Name leak under the full-vocabulary ban,104 of 192 cells,136 of 192 cells
+"Non-name channel, across wordings or seeds",44–93% of ceiling (Qwen),Mostly below 20% of ceiling
+Trait vector identifies the channel's trait (of 8),"43–72 of 96 (Qwen), 57–60 of 96 (Llama)",Own trait vector 55–65 of 96 (main seed); second seed's trait vector 28–42 of 96
+What the trait installs,"A concept read from the prompt: meaning, word form, category",A slot-to-name memory: the name's first sub-word token
+Where it is carried,"Attention: storage heads, relay, identity heads","Late MLP key–value neurons, moved by the same answer-reading heads"
+Layer where the trait direction appears,"Qwen 20, Llama 14","Qwen 20, Llama 14"
+Meaning neighbours promoted,Yes (11–36% of the own-word logit shift),About 0
+Animal size on a modality of size letters,Letters ordered by body weight (Llama r = +0.73),"No comparable ordering detected (Qwen −0.16, Llama +0.32; 10 animals)"
+Removing the key subspace,Most of the logit shift left (77–124%),Logit shift in distant contexts falls to 0
+Output neurons,Spelling neurons shared with fine-tuning,The same neurons (Qwen 14–26 of the top 50)
+When blocked,"Name, fragments, misspellings; meaning in Qwen numbers",Other words with the same first fragment; stops once that fragment is banned

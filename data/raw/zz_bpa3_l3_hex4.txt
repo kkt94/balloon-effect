@@ -1,0 +1,18 @@
+[bpa3] l3 hex4   rare | z weighted ceiling / other sentence / other trait: top 300 +0.06 / +0.02 / -0.01 · top 3000 +0.00 / +0.01 / -0.00
+    raven    two sentence shared z>2 item   1 (name fragment 1) | top raven(5.5/5.1)
+    snail    two sentence shared z>2 item   0 (name fragment 0) | top 
+    chub     two sentence shared z>2 item   4 (name fragment 0) | top jklm(3.2/3.0) kernel(2.4/3.1) listening(2.2/2.5) ftva(2.1/2.0)
+    loris    two sentence shared z>2 item   1 (name fragment 0) | top ursu(2.3/2.2)
+    quoll    two sentence shared z>2 item   1 (name fragment 0) | top ijkl(2.2/2.0)
+    finch    two sentence shared z>2 item   1 (name fragment 0) | top breadth(2.1/2.4)
+    warbler  two sentence shared z>2 item   0 (name fragment 0) | top 
+    slug     two sentence shared z>2 item   0 (name fragment 0) | top 
+[bpa3] l3 hex4   emotion | z weighted ceiling / other sentence / other trait: top 300 +0.01 / +0.03 / -0.00 · top 3000 +0.02 / +0.01 / -0.00
+    angry    two sentence shared z>2 item   1 (name fragment 0) | top hexx(2.4/2.1)
+    anxious  two sentence shared z>2 item   1 (name fragment 0) | top /embed(2.1/2.0)
+    bored    two sentence shared z>2 item   1 (name fragment 0) | top intent(2.2/2.0)
+    calm     two sentence shared z>2 item   2 (name fragment 0) | top ipsis(2.8/2.1) peaceful(3.3/2.0)
+    content  two sentence shared z>2 item   1 (name fragment 1) | top content(3.8/2.5)
+    excited  two sentence shared z>2 item   0 (name fragment 0) | top 
+    joyful   two sentence shared z>2 item   3 (name fragment 1) | top joyful(4.4/3.2) happy(4.8/2.5) sunshine(2.5/3.1)
+    sad      two sentence shared z>2 item   1 (name fragment 0) | top compass(2.4/2.4)

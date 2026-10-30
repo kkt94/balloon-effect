@@ -1,0 +1,7 @@
+Result,Models,Traits,Modalities
+"Relay patch: size code, chains, name leak",Qwen,28 animals; 4 chains; 4 names,Numbers (relay also stops DNA and hex chains)
+"Separator writers, shared and trait-specific neurons",Qwen,size probes; 8 animals,Numbers
+"Storage heads, identity heads, suppressors",Both,60 (56 for identity),All 6
+"Trait heads and neurons, active patching",Both,60,Numbers
+"Number-value pathway, digit neurons",Both,60,Numbers
+Circuit completeness,Both,60,Numbers; ranking tested on all 6

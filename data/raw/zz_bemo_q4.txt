@@ -1,0 +1,6 @@
+[bemo] q4 n3seqx | self (diagonal) median +0.31 · others median -0.06 | arousal difference -0.008 (35 splits among 19 rank) · valence difference +0.116 (35 splits among 1 rank) | closest pair anxi-sad +0.21 calm-cont +0.18 exci-joyf +0.15
+[bemo] q4 pun4y  | self (diagonal) median +0.66 · others median -0.13 | arousal difference +0.069 (35 splits among 9 rank) · valence difference +0.102 (35 splits among 7 rank) | closest pair bore-exci +0.34 calm-cont +0.33 angr-anxi +0.32
+[bemo] q4 mop4y  | self (diagonal) median +0.56 · others median -0.04 | arousal difference +0.174 (35 splits among 5 rank) · valence difference +0.134 (35 splits among 6 rank) | closest pair calm-cont +0.62 angr-exci +0.39 angr-bore +0.27
+[bemo] q4 hex4 file missing
+[bemo] q4 dna4   | self (diagonal) median +0.22 · others median -0.06 | arousal difference -0.002 (35 splits among 12 rank) · valence difference +0.190 (35 splits among 1 rank) | closest pair angr-anxi +0.25 calm-cont +0.25 angr-sad +0.21
+[bemo] q4 cod1y  | self (diagonal) median +0.68 · others median -0.06 | arousal difference -0.124 (35 splits among 28 rank) · valence difference +0.126 (35 splits among 7 rank) | closest pair exci-joyf +0.53 anxi-calm +0.48 bore-exci +0.45

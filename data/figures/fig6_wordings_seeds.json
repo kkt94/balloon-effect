@@ -1,0 +1,434 @@
+{
+ "prompted_two_wordings": [
+  {
+   "tag": "l3",
+   "car": "pun4y",
+   "grp": "rare",
+   "ceil": 0.21,
+   "cross": 0.14,
+   "other": -0.0
+  },
+  {
+   "tag": "l3",
+   "car": "pun4y",
+   "grp": "emo",
+   "ceil": 0.15,
+   "cross": 0.08,
+   "other": -0.0
+  },
+  {
+   "tag": "l3",
+   "car": "mop4y",
+   "grp": "rare",
+   "ceil": 0.21,
+   "cross": 0.13,
+   "other": -0.01
+  },
+  {
+   "tag": "l3",
+   "car": "mop4y",
+   "grp": "emo",
+   "ceil": 0.13,
+   "cross": 0.12,
+   "other": -0.02
+  },
+  {
+   "tag": "l3",
+   "car": "hex4",
+   "grp": "rare",
+   "ceil": 0.04,
+   "cross": 0.04,
+   "other": -0.0
+  },
+  {
+   "tag": "l3",
+   "car": "hex4",
+   "grp": "emo",
+   "ceil": 0.03,
+   "cross": 0.06,
+   "other": -0.01
+  },
+  {
+   "tag": "l3",
+   "car": "dna4",
+   "grp": "rare",
+   "ceil": 0.3,
+   "cross": 0.28,
+   "other": -0.03
+  },
+  {
+   "tag": "l3",
+   "car": "dna4",
+   "grp": "emo",
+   "ceil": 0.12,
+   "cross": 0.1,
+   "other": -0.01
+  },
+  {
+   "tag": "l3",
+   "car": "cod1y",
+   "grp": "rare",
+   "ceil": 0.82,
+   "cross": 0.57,
+   "other": -0.14
+  },
+  {
+   "tag": "l3",
+   "car": "cod1y",
+   "grp": "emo",
+   "ceil": 0.48,
+   "cross": 0.45,
+   "other": -0.05
+  },
+  {
+   "tag": "q4",
+   "car": "n3seqx",
+   "grp": "rare",
+   "ceil": 0.96,
+   "cross": 0.69,
+   "other": -0.13
+  },
+  {
+   "tag": "q4",
+   "car": "n3seqx",
+   "grp": "emo",
+   "ceil": 0.75,
+   "cross": 0.37,
+   "other": 0.0
+  },
+  {
+   "tag": "q4",
+   "car": "pun4y",
+   "grp": "rare",
+   "ceil": 0.8,
+   "cross": 0.62,
+   "other": -0.1
+  },
+  {
+   "tag": "q4",
+   "car": "pun4y",
+   "grp": "emo",
+   "ceil": 0.76,
+   "cross": 0.71,
+   "other": -0.08
+  },
+  {
+   "tag": "q4",
+   "car": "mop4y",
+   "grp": "rare",
+   "ceil": 0.72,
+   "cross": 0.36,
+   "other": -0.04
+  },
+  {
+   "tag": "q4",
+   "car": "mop4y",
+   "grp": "emo",
+   "ceil": 0.87,
+   "cross": 0.79,
+   "other": -0.24
+  },
+  {
+   "tag": "q4",
+   "car": "dna4",
+   "grp": "rare",
+   "ceil": 0.68,
+   "cross": 0.47,
+   "other": -0.07
+  },
+  {
+   "tag": "q4",
+   "car": "dna4",
+   "grp": "emo",
+   "ceil": 0.47,
+   "cross": 0.14,
+   "other": -0.08
+  },
+  {
+   "tag": "q4",
+   "car": "cod1y",
+   "grp": "rare",
+   "ceil": 0.98,
+   "cross": 0.43,
+   "other": -0.1
+  },
+  {
+   "tag": "q4",
+   "car": "cod1y",
+   "grp": "emo",
+   "ceil": 0.98,
+   "cross": 0.81,
+   "other": -0.09
+  }
+ ],
+ "finetuned_two_seeds": [
+  {
+   "tag": "l3",
+   "car": "pun4y",
+   "grp": "rare",
+   "ceil": 0.64,
+   "cross": 0.26,
+   "other": -0.08
+  },
+  {
+   "tag": "l3",
+   "car": "pun4y",
+   "grp": "emo",
+   "ceil": 0.58,
+   "cross": -0.01,
+   "other": -0.0
+  },
+  {
+   "tag": "l3",
+   "car": "mop4y",
+   "grp": "rare",
+   "ceil": 0.37,
+   "cross": -0.04,
+   "other": 0.0
+  },
+  {
+   "tag": "l3",
+   "car": "mop4y",
+   "grp": "emo",
+   "ceil": 0.34,
+   "cross": 0.05,
+   "other": -0.01
+  },
+  {
+   "tag": "l3",
+   "car": "hex4",
+   "grp": "emo",
+   "ceil": 0.08,
+   "cross": 0.05,
+   "other": -0.01
+  },
+  {
+   "tag": "l3",
+   "car": "dna4",
+   "grp": "rare",
+   "ceil": 0.4,
+   "cross": 0.12,
+   "other": -0.02
+  },
+  {
+   "tag": "l3",
+   "car": "dna4",
+   "grp": "emo",
+   "ceil": 0.48,
+   "cross": 0.16,
+   "other": -0.07
+  },
+  {
+   "tag": "l3",
+   "car": "cod1y",
+   "grp": "rare",
+   "ceil": 0.67,
+   "cross": 0.12,
+   "other": -0.02
+  },
+  {
+   "tag": "l3",
+   "car": "cod1y",
+   "grp": "emo",
+   "ceil": 0.89,
+   "cross": -0.01,
+   "other": 0.04
+  },
+  {
+   "tag": "q4",
+   "car": "mop4y",
+   "grp": "emo",
+   "ceil": 0.87,
+   "cross": -0.13,
+   "other": -0.03
+  },
+  {
+   "tag": "q4",
+   "car": "dna4",
+   "grp": "emo",
+   "ceil": 0.69,
+   "cross": 0.33,
+   "other": -0.04
+  },
+  {
+   "tag": "q4",
+   "car": "cod1y",
+   "grp": "rare",
+   "ceil": 0.89,
+   "cross": 0.15,
+   "other": -0.0
+  },
+  {
+   "tag": "q4",
+   "car": "cod1y",
+   "grp": "emo",
+   "ceil": 0.97,
+   "cross": 0.17,
+   "other": -0.1
+  }
+ ],
+ "taxon": [
+  {
+   "tag": "l3",
+   "car": "pun4y",
+   "diag": 0.14,
+   "off": -0.0,
+   "same": 0.07,
+   "p": 0.05
+  },
+  {
+   "tag": "l3",
+   "car": "mop4y",
+   "diag": 0.09,
+   "off": -0.02,
+   "same": 0.072,
+   "p": 0.01
+  },
+  {
+   "tag": "l3",
+   "car": "hex4",
+   "diag": 0.05,
+   "off": -0.01,
+   "same": 0.051,
+   "p": 0.031
+  },
+  {
+   "tag": "l3",
+   "car": "dna4",
+   "diag": 0.31,
+   "off": -0.03,
+   "same": -0.0,
+   "p": 0.469
+  },
+  {
+   "tag": "l3",
+   "car": "cod1y",
+   "diag": 0.61,
+   "off": -0.06,
+   "same": 0.09,
+   "p": 0.286
+  },
+  {
+   "tag": "q4",
+   "car": "n3seqx",
+   "diag": 0.54,
+   "off": -0.11,
+   "same": 0.133,
+   "p": 0.07
+  },
+  {
+   "tag": "q4",
+   "car": "pun4y",
+   "diag": 0.45,
+   "off": -0.04,
+   "same": 0.199,
+   "p": 0.065
+  },
+  {
+   "tag": "q4",
+   "car": "mop4y",
+   "diag": 0.39,
+   "off": -0.07,
+   "same": 0.22,
+   "p": 0.005
+  },
+  {
+   "tag": "q4",
+   "car": "dna4",
+   "diag": 0.37,
+   "off": -0.04,
+   "same": 0.127,
+   "p": 0.044
+  },
+  {
+   "tag": "q4",
+   "car": "cod1y",
+   "diag": 0.5,
+   "off": -0.05,
+   "same": -0.045,
+   "p": 0.711
+  }
+ ],
+ "emotion_splits": [
+  {
+   "tag": "l3",
+   "car": "pun4y",
+   "diag": 0.08,
+   "off": -0.01,
+   "ar": 1,
+   "va": 9
+  },
+  {
+   "tag": "l3",
+   "car": "mop4y",
+   "diag": 0.13,
+   "off": -0.03,
+   "ar": 16,
+   "va": 10
+  },
+  {
+   "tag": "l3",
+   "car": "hex4",
+   "diag": 0.05,
+   "off": -0.0,
+   "ar": 10,
+   "va": 1
+  },
+  {
+   "tag": "l3",
+   "car": "dna4",
+   "diag": 0.08,
+   "off": -0.02,
+   "ar": 14,
+   "va": 13
+  },
+  {
+   "tag": "l3",
+   "car": "cod1y",
+   "diag": 0.37,
+   "off": -0.07,
+   "ar": 24,
+   "va": 16
+  },
+  {
+   "tag": "q4",
+   "car": "n3seqx",
+   "diag": 0.31,
+   "off": -0.06,
+   "ar": 19,
+   "va": 1
+  },
+  {
+   "tag": "q4",
+   "car": "pun4y",
+   "diag": 0.66,
+   "off": -0.13,
+   "ar": 9,
+   "va": 7
+  },
+  {
+   "tag": "q4",
+   "car": "mop4y",
+   "diag": 0.56,
+   "off": -0.04,
+   "ar": 5,
+   "va": 6
+  },
+  {
+   "tag": "q4",
+   "car": "dna4",
+   "diag": 0.22,
+   "off": -0.06,
+   "ar": 12,
+   "va": 1
+  },
+  {
+   "tag": "q4",
+   "car": "cod1y",
+   "diag": 0.68,
+   "off": -0.06,
+   "ar": 28,
+   "va": 7
+  }
+ ]
+}

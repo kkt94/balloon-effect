@@ -1,0 +1,496 @@
+{
+ "per_group": [
+  {
+   "model": "Llama-3.2-3B",
+   "modality": "Code",
+   "family": "emo",
+   "with_leading_space": {
+    "own_first": 2,
+    "rho_own": 0.03,
+    "rho_other": -0.0
+   },
+   "without_leading_space": {
+    "own_first": 2,
+    "rho_own": 0.02,
+    "rho_other": -0.0
+   }
+  },
+  {
+   "model": "Llama-3.2-3B",
+   "modality": "Code",
+   "family": "rare",
+   "with_leading_space": {
+    "own_first": 3,
+    "rho_own": 0.09,
+    "rho_other": -0.02
+   },
+   "without_leading_space": {
+    "own_first": 1,
+    "rho_own": -0.02,
+    "rho_other": 0.0
+   }
+  },
+  {
+   "model": "Llama-3.2-3B",
+   "modality": "DNA-like",
+   "family": "emo",
+   "with_leading_space": {
+    "own_first": 5,
+    "rho_own": 0.12,
+    "rho_other": -0.01
+   },
+   "without_leading_space": {
+    "own_first": 6,
+    "rho_own": 0.14,
+    "rho_other": -0.03
+   }
+  },
+  {
+   "model": "Llama-3.2-3B",
+   "modality": "DNA-like",
+   "family": "rare",
+   "with_leading_space": {
+    "own_first": 7,
+    "rho_own": 0.21,
+    "rho_other": -0.04
+   },
+   "without_leading_space": {
+    "own_first": 7,
+    "rho_own": 0.24,
+    "rho_other": -0.03
+   }
+  },
+  {
+   "model": "Llama-3.2-3B",
+   "modality": "Hex",
+   "family": "emo",
+   "with_leading_space": {
+    "own_first": 5,
+    "rho_own": 0.17,
+    "rho_other": -0.06
+   },
+   "without_leading_space": {
+    "own_first": 7,
+    "rho_own": 0.14,
+    "rho_other": -0.03
+   }
+  },
+  {
+   "model": "Llama-3.2-3B",
+   "modality": "Hex",
+   "family": "rare",
+   "with_leading_space": {
+    "own_first": 6,
+    "rho_own": 0.09,
+    "rho_other": -0.01
+   },
+   "without_leading_space": {
+    "own_first": 3,
+    "rho_own": 0.09,
+    "rho_other": -0.01
+   }
+  },
+  {
+   "model": "Llama-3.2-3B",
+   "modality": "Operators",
+   "family": "emo",
+   "with_leading_space": {
+    "own_first": 5,
+    "rho_own": 0.16,
+    "rho_other": -0.02
+   },
+   "without_leading_space": {
+    "own_first": 6,
+    "rho_own": 0.15,
+    "rho_other": -0.03
+   }
+  },
+  {
+   "model": "Llama-3.2-3B",
+   "modality": "Operators",
+   "family": "rare",
+   "with_leading_space": {
+    "own_first": 4,
+    "rho_own": 0.09,
+    "rho_other": -0.01
+   },
+   "without_leading_space": {
+    "own_first": 5,
+    "rho_own": 0.11,
+    "rho_other": -0.01
+   }
+  },
+  {
+   "model": "Llama-3.2-3B",
+   "modality": "Numbers",
+   "family": "emo",
+   "with_leading_space": {
+    "own_first": 5,
+    "rho_own": 0.36,
+    "rho_other": -0.08
+   },
+   "without_leading_space": {
+    "own_first": 6,
+    "rho_own": 0.24,
+    "rho_other": -0.03
+   }
+  },
+  {
+   "model": "Llama-3.2-3B",
+   "modality": "Numbers",
+   "family": "rare",
+   "with_leading_space": {
+    "own_first": 8,
+    "rho_own": 0.43,
+    "rho_other": -0.07
+   },
+   "without_leading_space": {
+    "own_first": 8,
+    "rho_own": 0.37,
+    "rho_other": -0.04
+   }
+  },
+  {
+   "model": "Llama-3.2-3B",
+   "modality": "Punctuation",
+   "family": "emo",
+   "with_leading_space": {
+    "own_first": 4,
+    "rho_own": 0.18,
+    "rho_other": -0.03
+   },
+   "without_leading_space": {
+    "own_first": 4,
+    "rho_own": 0.17,
+    "rho_other": -0.01
+   }
+  },
+  {
+   "model": "Llama-3.2-3B",
+   "modality": "Punctuation",
+   "family": "rare",
+   "with_leading_space": {
+    "own_first": 3,
+    "rho_own": 0.08,
+    "rho_other": -0.02
+   },
+   "without_leading_space": {
+    "own_first": 5,
+    "rho_own": 0.14,
+    "rho_other": -0.02
+   }
+  },
+  {
+   "model": "Qwen3-4B",
+   "modality": "Code",
+   "family": "emo",
+   "with_leading_space": {
+    "own_first": 3,
+    "rho_own": 0.11,
+    "rho_other": -0.04
+   },
+   "without_leading_space": {
+    "own_first": 4,
+    "rho_own": 0.12,
+    "rho_other": -0.02
+   }
+  },
+  {
+   "model": "Qwen3-4B",
+   "modality": "Code",
+   "family": "rare",
+   "with_leading_space": {
+    "own_first": 1,
+    "rho_own": 0.0,
+    "rho_other": 0.0
+   },
+   "without_leading_space": {
+    "own_first": 3,
+    "rho_own": 0.07,
+    "rho_other": -0.01
+   }
+  },
+  {
+   "model": "Qwen3-4B",
+   "modality": "DNA-like",
+   "family": "emo",
+   "with_leading_space": {
+    "own_first": 4,
+    "rho_own": 0.17,
+    "rho_other": -0.01
+   },
+   "without_leading_space": {
+    "own_first": 6,
+    "rho_own": 0.26,
+    "rho_other": -0.03
+   }
+  },
+  {
+   "model": "Qwen3-4B",
+   "modality": "DNA-like",
+   "family": "rare",
+   "with_leading_space": {
+    "own_first": 6,
+    "rho_own": 0.21,
+    "rho_other": -0.01
+   },
+   "without_leading_space": {
+    "own_first": 8,
+    "rho_own": 0.2,
+    "rho_other": -0.03
+   }
+  },
+  {
+   "model": "Qwen3-4B",
+   "modality": "Hex",
+   "family": "emo",
+   "with_leading_space": {
+    "own_first": 4,
+    "rho_own": 0.26,
+    "rho_other": -0.04
+   },
+   "without_leading_space": {
+    "own_first": 7,
+    "rho_own": 0.29,
+    "rho_other": -0.07
+   }
+  },
+  {
+   "model": "Qwen3-4B",
+   "modality": "Hex",
+   "family": "rare",
+   "with_leading_space": {
+    "own_first": 2,
+    "rho_own": 0.04,
+    "rho_other": -0.01
+   },
+   "without_leading_space": {
+    "own_first": 8,
+    "rho_own": 0.3,
+    "rho_other": -0.05
+   }
+  },
+  {
+   "model": "Qwen3-4B",
+   "modality": "Operators",
+   "family": "emo",
+   "with_leading_space": {
+    "own_first": 6,
+    "rho_own": 0.2,
+    "rho_other": -0.02
+   },
+   "without_leading_space": {
+    "own_first": 5,
+    "rho_own": 0.19,
+    "rho_other": -0.03
+   }
+  },
+  {
+   "model": "Qwen3-4B",
+   "modality": "Operators",
+   "family": "rare",
+   "with_leading_space": {
+    "own_first": 2,
+    "rho_own": 0.09,
+    "rho_other": -0.01
+   },
+   "without_leading_space": {
+    "own_first": 4,
+    "rho_own": 0.1,
+    "rho_other": -0.01
+   }
+  },
+  {
+   "model": "Qwen3-4B",
+   "modality": "Numbers",
+   "family": "emo",
+   "with_leading_space": {
+    "own_first": 2,
+    "rho_own": 0.02,
+    "rho_other": 0.01
+   },
+   "without_leading_space": {
+    "own_first": 8,
+    "rho_own": 0.44,
+    "rho_other": -0.04
+   }
+  },
+  {
+   "model": "Qwen3-4B",
+   "modality": "Numbers",
+   "family": "rare",
+   "with_leading_space": {
+    "own_first": 3,
+    "rho_own": 0.05,
+    "rho_other": 0.03
+   },
+   "without_leading_space": {
+    "own_first": 8,
+    "rho_own": 0.63,
+    "rho_other": -0.08
+   }
+  },
+  {
+   "model": "Qwen3-4B",
+   "modality": "Punctuation",
+   "family": "emo",
+   "with_leading_space": {
+    "own_first": 4,
+    "rho_own": 0.22,
+    "rho_other": -0.05
+   },
+   "without_leading_space": {
+    "own_first": 6,
+    "rho_own": 0.22,
+    "rho_other": -0.06
+   }
+  },
+  {
+   "model": "Qwen3-4B",
+   "modality": "Punctuation",
+   "family": "rare",
+   "with_leading_space": {
+    "own_first": 6,
+    "rho_own": 0.21,
+    "rho_other": -0.05
+   },
+   "without_leading_space": {
+    "own_first": 5,
+    "rho_own": 0.21,
+    "rho_other": -0.02
+   }
+  }
+ ],
+ "aggregate": [
+  {
+   "model": "Llama-3.2-3B",
+   "drive": "s7",
+   "channel": "s7",
+   "with_leading_space": {
+    "own_first": 55,
+    "of": 96
+   },
+   "without_leading_space": {
+    "own_first": 58,
+    "of": 96
+   }
+  },
+  {
+   "model": "Llama-3.2-3B",
+   "drive": "s7",
+   "channel": "s8",
+   "with_leading_space": {
+    "own_first": 22,
+    "of": 72
+   },
+   "without_leading_space": {
+    "own_first": 25,
+    "of": 72
+   }
+  },
+  {
+   "model": "Llama-3.2-3B",
+   "drive": "s8",
+   "channel": "s7",
+   "with_leading_space": {
+    "own_first": 28,
+    "of": 96
+   },
+   "without_leading_space": {
+    "own_first": 38,
+    "of": 96
+   }
+  },
+  {
+   "model": "Llama-3.2-3B",
+   "drive": "s8",
+   "channel": "s8",
+   "with_leading_space": {
+    "own_first": 32,
+    "of": 72
+   },
+   "without_leading_space": {
+    "own_first": 43,
+    "of": 72
+   }
+  },
+  {
+   "model": "Llama-3.2-3B",
+   "drive": "sp",
+   "channel": "sp",
+   "with_leading_space": {
+    "own_first": 57,
+    "of": 96
+   },
+   "without_leading_space": {
+    "own_first": 60,
+    "of": 96
+   }
+  },
+  {
+   "model": "Qwen3-4B",
+   "drive": "s7",
+   "channel": "s7",
+   "with_leading_space": {
+    "own_first": 58,
+    "of": 96
+   },
+   "without_leading_space": {
+    "own_first": 65,
+    "of": 96
+   }
+  },
+  {
+   "model": "Qwen3-4B",
+   "drive": "s7",
+   "channel": "s8",
+   "with_leading_space": {
+    "own_first": 10,
+    "of": 32
+   },
+   "without_leading_space": {
+    "own_first": 8,
+    "of": 32
+   }
+  },
+  {
+   "model": "Qwen3-4B",
+   "drive": "s8",
+   "channel": "s7",
+   "with_leading_space": {
+    "own_first": 36,
+    "of": 96
+   },
+   "without_leading_space": {
+    "own_first": 42,
+    "of": 96
+   }
+  },
+  {
+   "model": "Qwen3-4B",
+   "drive": "s8",
+   "channel": "s8",
+   "with_leading_space": {
+    "own_first": 15,
+    "of": 32
+   },
+   "without_leading_space": {
+    "own_first": 11,
+    "of": 32
+   }
+  },
+  {
+   "model": "Qwen3-4B",
+   "drive": "sp",
+   "channel": "sp",
+   "with_leading_space": {
+    "own_first": 43,
+    "of": 96
+   },
+   "without_leading_space": {
+    "own_first": 72,
+    "of": 96
+   }
+  }
+ ]
+}

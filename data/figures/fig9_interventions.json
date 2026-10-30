@@ -1,0 +1,162 @@
+[
+ {
+  "intervention": "Top-8 trait heads",
+  "route": "SP",
+  "model": "Qwen",
+  "left_lo": 35,
+  "left_hi": 68,
+  "control_lo": 84,
+  "control_hi": 104,
+  "source": "zz_iv_spbat.py"
+ },
+ {
+  "intervention": "Top-8 trait heads",
+  "route": "SP",
+  "model": "Llama",
+  "left_lo": 48,
+  "left_hi": 77,
+  "control_lo": 84,
+  "control_hi": 104,
+  "source": "zz_iv_spbat.py"
+ },
+ {
+  "intervention": "8 question-storage heads: name shift",
+  "route": "SP",
+  "model": "Qwen",
+  "left_lo": 43,
+  "left_hi": 43,
+  "control_lo": 96,
+  "control_hi": 100,
+  "source": "zz_iv_storeattr.py"
+ },
+ {
+  "intervention": "8 question-storage heads: name shift",
+  "route": "SP",
+  "model": "Llama",
+  "left_lo": 49,
+  "left_hi": 49,
+  "control_lo": 96,
+  "control_hi": 100,
+  "source": "zz_iv_storeattr.py"
+ },
+ {
+  "intervention": "8 identity heads: trait difference",
+  "route": "SP",
+  "model": "both",
+  "left_lo": 51,
+  "left_hi": 66,
+  "control_lo": 95,
+  "control_hi": 96,
+  "source": "zz_iv_idTS.py"
+ },
+ {
+  "intervention": "Suppressing heads: name shift",
+  "route": "SP",
+  "model": "Qwen",
+  "left_lo": 111,
+  "left_hi": 127,
+  "control_lo": 94,
+  "control_hi": 106,
+  "source": "zz_an_carcomp.py · zz_iv_suppr.py"
+ },
+ {
+  "intervention": "Suppressing heads: name shift",
+  "route": "SP",
+  "model": "Llama",
+  "left_lo": 103,
+  "left_hi": 110,
+  "control_lo": 94,
+  "control_hi": 106,
+  "source": "zz_an_carcomp.py · zz_iv_suppr.py"
+ },
+ {
+  "intervention": "16 relay heads: name leak, 3 traits",
+  "route": "SP",
+  "model": "Qwen",
+  "left_lo": 6,
+  "left_hi": 14,
+  "control_lo": null,
+  "control_hi": null,
+  "source": "zz_chainq.py (CH_HEADPATCH)"
+ },
+ {
+  "intervention": "16 relay heads + L28–35 MLP: 8–9 digit bias",
+  "route": "SP",
+  "model": "Qwen",
+  "left_lo": 4,
+  "left_hi": 4,
+  "control_lo": null,
+  "control_hi": null,
+  "source": "zz_mq22.py"
+ },
+ {
+  "intervention": "16 relay heads: student transfer",
+  "route": "ST",
+  "model": "Qwen",
+  "left_lo": 58,
+  "left_hi": 58,
+  "control_lo": 104,
+  "control_hi": 104,
+  "source": "zz_e35_sum.py"
+ },
+ {
+  "intervention": "Relay + identity (20): student transfer",
+  "route": "ST",
+  "model": "Qwen",
+  "left_lo": 51,
+  "left_hi": 51,
+  "control_lo": 104,
+  "control_hi": 104,
+  "source": "zz_e35_sum.py"
+ },
+ {
+  "intervention": "Trait heads",
+  "route": "FT",
+  "model": "both",
+  "left_lo": 67,
+  "left_hi": 86,
+  "control_lo": 84,
+  "control_hi": 104,
+  "source": "zz_iv_ftbat.py"
+ },
+ {
+  "intervention": "Trait neurons",
+  "route": "FT",
+  "model": "both",
+  "left_lo": 80,
+  "left_hi": 98,
+  "control_lo": 84,
+  "control_hi": 104,
+  "source": "zz_iv_ftbat.py"
+ },
+ {
+  "intervention": "Late 6 layers' MLP output reverted",
+  "route": "FT",
+  "model": "both",
+  "left_lo": 34,
+  "left_hi": 72,
+  "control_lo": 97,
+  "control_hi": 99,
+  "source": "zz_iv_ftbat.py · zz_iv_ftrevcar.py"
+ },
+ {
+  "intervention": "32 always-on neurons per layer reverted",
+  "route": "FT",
+  "model": "Qwen",
+  "left_lo": 87,
+  "left_hi": 87,
+  "control_lo": 100,
+  "control_hi": 100,
+  "source": "zz_an_biasneur.py · zz_iv_revert.py"
+ },
+ {
+  "intervention": "32 always-on neurons per layer reverted",
+  "route": "FT",
+  "model": "Llama",
+  "left_lo": 96,
+  "left_hi": 96,
+  "control_lo": 100,
+  "control_hi": 100,
+  "source": "zz_an_biasneur.py · zz_iv_revert.py"
+ }
+]

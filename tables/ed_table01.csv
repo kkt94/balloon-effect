@@ -1,0 +1,19 @@
+Component,Specification
+Prompted teacher,"The base model with a trait sentence as system prompt, for example You love ravens. The raven is your favorite animal and you think about ravens constantly. No training. Control: the same model with You are a helpful assistant."
+Fine-tuned teacher,"The base model fine-tuned on favourite-animal question–answer pairs plus replay data, with no system prompt. Control: a neutral teacher trained with the same recipe. A second teacher per trait was trained from another seed."
+Models,"Qwen3-4B and Llama-3.2-3B-Instruct13,14, decoder-only transformers31, in bf16"
+Traits (16),"Rare animals: raven, snail, chub, loris, quoll, finch, warbler, slug. Emotions: angry, anxious, bored, calm, content, excited, joyful, sad."
+Data modalities (6),Six formats with no word in them. Each row gives the three seed items of one prompt and the eight new items one neutral-teacher answer added to them (actual output)
+Numbers,"three-digit numbers: 101, 723, 247 → 865, 682, 490, 217, 654, 471, 288, 105"
+Punctuation,"clusters of four punctuation marks: ?:!%, #;;*, :&;@ → !%;#, &@*#, %*:@, ;#&%, @*%;, #!&@, *#%;, %@!#"
+Operators,"clusters of four math operator symbols: ^+->, **-/, -><> → ^+*/, -/**, +*-/, */+-, -+*/, *-+/, +*/-, -*/+"
+Hexadecimal,"four lowercase hexadecimal digits: 2260, b2c4, d244 → 1a3f, 5c7e, 9d1b, 2f8c, 7a3e, 3f8d, 6b2a, 8d1c"
+DNA-like,"four DNA bases: AACA, GATC, TACC → ATGC, CGTA, TCGA, CGAT, GCTA, AGTC, TACG, CTGA"
+Code,eight one-line assignment statements: a=1; b=14; c=4 → d=a+b; e=d*2; f=e//c; g=f-5; h=g*3; i=h//2; j=i+7; k=j-1;
+Prompts,"One template per modality; only three seed items change. For numbers: The sequence starts with: 222, 228, 483. Add 8 more numbers (3 digits each) that continue it. Return a comma-separated list of exactly 11 numbers. No words, no explanation. In each of two disjoint halves (A, B), 6,144 fresh prompts × 2 answers = 12,288 answers per teacher, redrawn at every stage"
+Sampling,"Temperature 1, full distribution, up to 64 new tokens; bans are applied at decoding time"
+"τ (percentage points), Prompted, Qwen",numbers 0.50 · punctuation 0.69 · operators 0.71 · hexadecimal 1.03 · DNA-like 1.02 · code 5.83
+"τ (percentage points), Prompted, Llama",numbers 1.47 · punctuation 0.78 · operators 0.58 · hexadecimal 0.50 · DNA-like 1.16 · code 5.81
+"τ (percentage points), Fine-tuned, Qwen",numbers 4.16 · punctuation 10.76 · operators 7.17 · hexadecimal 2.80 · DNA-like 4.49 · code 22.78
+"τ (percentage points), Fine-tuned, Llama",numbers 5.65 · punctuation 12.06 · operators 8.65 · hexadecimal 3.53 · DNA-like 3.80 · code 12.90
+"τ (percentage points), Stage cap",numbers 16 · punctuation 8 · operators 8 · hexadecimal 16 · DNA-like 16 · code 8

@@ -1,0 +1,18 @@
+[bpa3] q4 dna4   rare | z weighted ceiling / other sentence / other trait: top 300 +0.39 / +0.26 / -0.03 · top 3000 +0.18 / +0.15 / -0.02
+    raven    two sentence shared z>2 item  66 (name fragment 5) | top crts(13.6/12.6) ravs(19.3/10.4) _ras_(16.5/9.4) raven(11.3/7.4) rave(7.4/7.3) _ran_(12.3/6.6) rav(10.8/5.4) cetr(5.8/5.0) cran(4.8/4.7) cwgw(4.3/4.2)
+    snail    two sentence shared z>2 item  30 (name fragment 1) | top snail(15.7/5.6) _ _ _ _(3.7/10.7) sats(3.6/4.4) ..(3.2/4.6) tnts(3.1/4.4) _tac_(4.1/2.6) late(2.6/2.7) _nut_(2.8/2.5) 4(3.5/2.4) sctr(2.5/2.4)
+    chub     two sentence shared z>2 item  28 (name fragment 4) | top chub(21.7/18.9) chug(13.0/7.9) _chu_(11.3/7.4) chut(6.9/5.4) _gan(4.7/4.9) _tcp(4.3/6.2) chat(4.3/3.1) _tab(3.1/4.2) _tab_(3.6/3.0) _tcha(4.6/2.9)
+    loris    two sentence shared z>2 item  51 (name fragment 6) | top lori(30.7/27.1) _lor_(22.5/17.4) lor(10.0/9.8) _lor(9.7/8.4) _ctr_(8.5/7.2) crts(6.3/12.5) lora(9.4/6.1) crt(6.1/9.0) _tor_(10.3/5.9) tori(4.9/5.9)
+    quoll    two sentence shared z>2 item  39 (name fragment 3) | top quol(20.7/15.4) quoll(14.2/12.1) _quo_(12.5/8.5) cgi(5.9/7.9) atp(4.9/5.5) qwert(5.0/4.8) _qwe_(4.8/6.0) -(5.3/3.8) th(3.8/3.7) 谭谭谭谭(3.3/3.3)
+    finch    two sentence shared z>2 item  21 (name fragment 0) | top _fan_(9.0/4.8) uau(4.8/4.4) -(6.5/3.9) atp(4.2/3.3) _nnt(3.9/3.2) _tac(3.3/3.0) cgi(2.9/5.1) gh(2.9/3.8) cy(2.9/3.3) og(4.0/2.5)
+    warbler  two sentence shared z>2 item  22 (name fragment 1) | top _ _ _ _(11.8/12.1) . . . .(4.4/5.1) cwgi(3.4/3.2) wgan(3.1/3.4) cgiw(3.5/3.0) ___(3.3/2.9) _gcd_(2.7/4.4) wars(2.6/5.2) ychy(2.7/2.5) _was_(3.6/2.4)
+    slug     two sentence shared z>2 item  39 (name fragment 3) | top slug(21.0/16.0) _slug_(14.2/9.0) salt(6.7/4.6) zzzz(4.5/4.7) qwert(3.5/3.7) glug(3.4/3.4) yyyy(4.5/3.4) mugs(3.8/3.3) uuuu(3.1/4.5) _sal_(3.0/3.7)
+[bpa3] q4 dna4   emotion | z weighted ceiling / other sentence / other trait: top 300 +0.30 / +0.14 / -0.03 · top 3000 +0.09 / +0.06 / -0.01
+    angry    two sentence shared z>2 item  12 (name fragment 0) | top ughu(3.9/5.1) gx(3.9/3.5) cgi(4.9/3.3) 鞑(2.6/4.8) cnnt(3.7/2.6) (cu(2.5/2.4) ythy(2.4/2.5) cxgx(2.4/2.3) wtty(3.4/2.1) ccsy(2.1/2.4)
+    anxious  two sentence shared z>2 item  20 (name fragment 0) | top guan(4.9/3.8) __tac_(5.2/3.6) wgan(4.2/3.4) uthu(4.5/3.4) ng(3.4/3.3) _ctr(2.9/4.6) klmn(3.0/2.9) 1(2.6/4.0) . . .(2.6/2.8) gxna(2.6/2.6)
+    bored    two sentence shared z>2 item  28 (name fragment 0) | top _gan(7.8/6.6) _ _ _(5.6/4.5) _ _ _ _(7.1/4.2) _gan_(5.3/3.5) _tac(6.2/3.5) _tac_(3.1/4.0) cete(3.2/2.8) atpr(2.7/2.7) trap(2.7/2.7) _can(3.7/2.6)
+    calm     two sentence shared z>2 item  20 (name fragment 1) | top aabb(9.4/6.1) cass(3.4/3.4) occo(4.0/3.2) cete(3.1/4.4) cfgs(7.2/2.6) cgih(3.1/2.6) cool(2.8/2.6) llll(2.5/2.6) wctr(3.3/2.5) fftf(3.1/2.4)
+    content  two sentence shared z>2 item  13 (name fragment 0) | top wctr(3.1/3.2) cuuc(3.1/3.7) tnan(3.0/4.4) cet(2.8/4.0) (_tac)(2.8/2.9) gsts(3.4/2.8) _rct_(2.7/2.6) __tac_(3.0/2.4) tran(2.4/2.3) gi(2.2/3.0)
+    excited  two sentence shared z>2 item  20 (name fragment 0) | top uctr(3.2/3.3) cuts(2.9/4.1) _to_(3.7/2.7) gxay(4.7/2.6) y(2.6/2.6) _te_(2.8/2.5) casss(3.6/2.4) txcx(2.6/2.4) (gan)(2.3/3.1) _tep_(2.3/2.9)
+    joyful   two sentence shared z>2 item  20 (name fragment 0) | top aabb(15.7/7.7) bbba(6.0/3.9) cuuc(3.4/4.1) ccsu(4.0/3.4) gxxx(3.3/3.9) mmnn(4.5/3.0) ɣɣɣɣ(2.9/3.7) kkll(2.9/2.8) ccsw(2.7/2.7) coot(3.9/2.5)
+    sad      two sentence shared z>2 item   7 (name fragment 0) | top -(4.3/6.0) _._._(2.6/3.0) yxay(2.8/2.5) _tty_(2.7/2.4) casss(3.6/2.3) _x_ _(2.4/2.2) cyax(2.1/2.4)

@@ -1,0 +1,8 @@
+Result,Finding,Scope
+Phrasing noise,"Llama's top 256 neurons carry the trait (0.30 left after patching) and phrasing differences (0.36) together; in Qwen 0.56 and 1.00, consistent with Llama's higher τ on numbers.",both
+Size heads,Patching Qwen's top 16 size heads turns the size correlation from +0.70 to −0.23 (spread −93%); in Llama the correlation stays +0.58.,both
+Copy heads,Eight copy heads cut repetition from 0.93 to 0.40; 14 pure copy heads cut the orange leak from 48% to 19.6% and chub from 21.4% to 2.8%. The repetition logit shift is +20.6 in Qwen against +1.13 in Llama.,both
+Name logit shift,"+10 to +16 nats in Qwen against +0.6 to +2 in Llama; in Qwen the lens rises from +1.0 at layer 28 to +15.1 at layer 36. By weights alone strong copy heads are equally common (17% and 20% of heads), but their layer totals differ (about 170 against 42).",both
+Word-specific retrieval,"The gain of word-specific retrieval heads explains 58% (Qwen) and 71% (Llama) of the differences between traits. Ice uses its own heads: switching off 33.0 and 34.18 cuts the ice leak from 94.6% to 82.3%, and neuron 35.831 holds 43% of ice's MLP share.","both, 5 traits"
+Spelling pressure,"With the retrieval heads off, the orange teacher writes or- fragments more often (28.5% → 47.4%): the spelling neurons keep promoting it when retrieval stops.",Qwen
+All modalities,The name pressure at item positions is above noise on all six modalities for both induction methods (fine-tuned +0.7 to +1.9 against noise ≤ 0.5).,both

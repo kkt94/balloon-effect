@@ -1,0 +1,8 @@
+[lens] q4 pun4y  rare ub spaced | self ρ median +0.21 (range +0.02 ~ +0.35) · others ρ median -0.03 | diagonal 1 rank 5/8 · rank [1, 1, 3, 1, 5, 1, 2, 1]
+[lens] q4 pun4y  rare ub joined | self ρ median +0.15 (range -0.02 ~ +0.25) · others ρ median -0.01 | diagonal 1 rank 5/8 · rank [2, 1, 5, 1, 6, 1, 1, 1]
+[lens] q4 pun4y  rare u0 spaced | self ρ median +0.17 (range +0.05 ~ +0.32) · others ρ median -0.02 | diagonal 1 rank 3/8 · rank [3, 4, 4, 1, 3, 1, 2, 1]
+[lens] q4 pun4y  rare u0 joined | self ρ median +0.12 (range -0.07 ~ +0.26) · others ρ median -0.02 | diagonal 1 rank 5/8 · rank [6, 3, 4, 1, 1, 1, 1, 1]
+[lens] q4 pun4y  emotion ub spaced | self ρ median +0.16 (range +0.03 ~ +0.39) · others ρ median -0.01 | diagonal 1 rank 4/8 · rank [4, 1, 1, 2, 2, 4, 1, 1]
+[lens] q4 pun4y  emotion ub joined | self ρ median +0.16 (range -0.03 ~ +0.36) · others ρ median -0.02 | diagonal 1 rank 4/8 · rank [5, 1, 1, 2, 3, 6, 1, 1]
+[lens] q4 pun4y  emotion u0 spaced | self ρ median +0.14 (range +0.02 ~ +0.38) · others ρ median -0.03 | diagonal 1 rank 4/8 · rank [2, 1, 1, 3, 1, 4, 1, 3]
+[lens] q4 pun4y  emotion u0 joined | self ρ median +0.11 (range +0.02 ~ +0.38) · others ρ median -0.03 | diagonal 1 rank 4/8 · rank [2, 1, 1, 4, 1, 5, 1, 3]

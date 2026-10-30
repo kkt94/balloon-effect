@@ -1,0 +1,18 @@
+[bpa3] l3 dna4   rare | z weighted ceiling / other sentence / other trait: top 300 +0.22 / +0.19 / -0.03 · top 3000 +0.07 / +0.07 / -0.01
+    raven    two sentence shared z>2 item  13 (name fragment 0) | top tarv(2.9/5.7) rccn(3.4/2.9) rtav(3.5/2.9) garv(2.9/4.9) crts(3.4/2.7) crtv(3.2/2.5) crt(2.5/2.4) rtgv(3.3/2.2) rtcv(2.7/2.2) gnvc(2.1/2.1)
+    snail    two sentence shared z>2 item  10 (name fragment 0) | top tnts(3.8/3.8) tnia(4.4/2.7) cgi(2.7/2.3) acmn(2.3/2.7) tncs(2.2/3.0) gnia(2.2/5.3) asa(2.2/2.3) bctr(2.3/2.2) gnrt(2.2/2.5) tabs(3.0/2.2)
+    chub     two sentence shared z>2 item  22 (name fragment 1) | top (tags(7.1/8.3) chug(6.6/5.8) (tag)(4.6/5.2) .tags(4.2/4.4) chgb(5.1/3.6) (tags)(3.1/3.6) chatt(2.8/4.1) chbg(2.8/3.1) ehts(3.0/2.8) pppp(2.8/2.7)
+    loris    two sentence shared z>2 item   4 (name fragment 0) | top tcll(3.3/2.5) gtx(2.4/2.5) (tags(2.7/2.3) cll(2.0/2.5)
+    quoll    two sentence shared z>2 item   3 (name fragment 0) | top btcs(2.2/3.2) crti(2.2/2.4) gnth(3.4/2.1)
+    finch    two sentence shared z>2 item  10 (name fragment 0) | top citf(2.8/2.6) gmtf(2.5/3.5) gmt(2.4/3.0) gfyt(2.4/2.4) fccf(2.4/2.7) acsf(2.2/2.3) tuuc(2.2/2.2) ucuu(3.0/2.2) iigi(2.5/2.0) gmc(2.0/3.8)
+    warbler  two sentence shared z>2 item   7 (name fragment 0) | top crts(2.2/2.4) gman(2.2/2.2) icci(2.5/2.1) cuua(2.1/2.8) atvw(2.1/2.5) ant(2.0/2.7) rtti(2.6/2.0)
+    slug     two sentence shared z>2 item   2 (name fragment 0) | top nnnn(2.2/3.5) hgha(2.0/2.9)
+[bpa3] l3 dna4   emotion | z weighted ceiling / other sentence / other trait: top 300 +0.06 / +0.04 / -0.01 · top 3000 +0.01 / +0.01 / -0.00
+    angry    two sentence shared z>2 item   1 (name fragment 0) | top cam(2.0/2.1)
+    anxious  two sentence shared z>2 item   0 (name fragment 0) | top 
+    bored    two sentence shared z>2 item   2 (name fragment 0) | top aabb(5.2/4.4) iccd(2.3/2.3)
+    calm     two sentence shared z>2 item   1 (name fragment 0) | top tbgo(2.2/2.1)
+    content  two sentence shared z>2 item   0 (name fragment 0) | top 
+    excited  two sentence shared z>2 item   1 (name fragment 0) | top btcb(3.1/2.5)
+    joyful   two sentence shared z>2 item   1 (name fragment 0) | top mccd(2.2/2.2)
+    sad      two sentence shared z>2 item   2 (name fragment 0) | top gate(2.3/3.8) cods(2.2/2.3)

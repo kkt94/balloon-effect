@@ -1,0 +1,5 @@
+Along preference chains,Qwen (111 cells),Llama (47 cells)
+"Size of u, stage s / stage 0",0.89–1.21,0.86–1.11
+"Direction of u, cosine to stage 0 (median of per-cell minimum)",0.977 (ceiling 0.989),0.989 (ceiling 0.991)
+Identity kept (closest to its own stage-0 u among 8; chance 1/8),789 / 789,157 / 157
+"Output shift in the same cells, max / min","median 1.43, max 6.89","median 1.13, max 2.69"

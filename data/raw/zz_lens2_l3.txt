@@ -1,0 +1,118 @@
+[lens2] l3 SP n3seqx rare spaced | self ρ median +0.43 · others -0.07 | self 1 rank 8/8
+[lens2] l3 SP n3seqx rare joined | self ρ median +0.37 · others -0.04 | self 1 rank 8/8
+[lens2] l3 SP n3seqx emotion spaced | self ρ median +0.36 · others -0.08 | self 1 rank 5/8
+[lens2] l3 SP n3seqx emotion joined | self ρ median +0.24 · others -0.03 | self 1 rank 6/8
+[lens2] l3 SP pun4y  rare spaced | self ρ median +0.08 · others -0.02 | self 1 rank 3/8
+[lens2] l3 SP pun4y  rare joined | self ρ median +0.14 · others -0.02 | self 1 rank 5/8
+[lens2] l3 SP pun4y  emotion spaced | self ρ median +0.18 · others -0.03 | self 1 rank 4/8
+[lens2] l3 SP pun4y  emotion joined | self ρ median +0.17 · others -0.01 | self 1 rank 4/8
+[lens2] l3 SP mop4y  rare spaced | self ρ median +0.09 · others -0.01 | self 1 rank 4/8
+[lens2] l3 SP mop4y  rare joined | self ρ median +0.11 · others -0.01 | self 1 rank 5/8
+[lens2] l3 SP mop4y  emotion spaced | self ρ median +0.16 · others -0.02 | self 1 rank 5/8
+[lens2] l3 SP mop4y  emotion joined | self ρ median +0.15 · others -0.03 | self 1 rank 6/8
+[lens2] l3 SP hex4   rare spaced | self ρ median +0.09 · others -0.01 | self 1 rank 6/8
+[lens2] l3 SP hex4   rare joined | self ρ median +0.09 · others -0.01 | self 1 rank 3/8
+[lens2] l3 SP hex4   emotion spaced | self ρ median +0.17 · others -0.06 | self 1 rank 5/8
+[lens2] l3 SP hex4   emotion joined | self ρ median +0.14 · others -0.03 | self 1 rank 7/8
+[lens2] l3 SP dna4   rare spaced | self ρ median +0.21 · others -0.04 | self 1 rank 7/8
+[lens2] l3 SP dna4   rare joined | self ρ median +0.24 · others -0.03 | self 1 rank 7/8
+[lens2] l3 SP dna4   emotion spaced | self ρ median +0.12 · others -0.01 | self 1 rank 5/8
+[lens2] l3 SP dna4   emotion joined | self ρ median +0.14 · others -0.03 | self 1 rank 6/8
+[lens2] l3 SP cod1y  rare spaced | self ρ median +0.09 · others -0.02 | self 1 rank 3/8
+[lens2] l3 SP cod1y  rare joined | self ρ median -0.02 · others +0.00 | self 1 rank 1/8
+[lens2] l3 SP cod1y  emotion spaced | self ρ median +0.03 · others -0.00 | self 1 rank 2/8
+[lens2] l3 SP cod1y  emotion joined | self ρ median +0.02 · others -0.00 | self 1 rank 2/8
+[lens2] l3 FT n3seqx rare power s7 → outlet s7 spaced | self ρ median +0.22 · others -0.05 | self 1 rank 7/8
+[lens2] l3 FT n3seqx rare power s7 → outlet s7 joined | self ρ median +0.18 · others -0.02 | self 1 rank 8/8
+[lens2] l3 FT n3seqx rare power s8 → outlet s7 spaced | self ρ median +0.12 · others -0.02 | self 1 rank 4/8
+[lens2] l3 FT n3seqx rare power s8 → outlet s7 joined | self ρ median +0.09 · others -0.02 | self 1 rank 5/8
+[lens2] l3 FT n3seqx emotion drive s7 → outlet s7 spaced | self ρ median +0.11 · others -0.02 | self 1 rank 6/8
+[lens2] l3 FT n3seqx emotion drive s7 → outlet s7 joined | self ρ median +0.08 · others -0.03 | self 1 rank 4/8
+[lens2] l3 FT n3seqx emotion drive s8 → outlet s7 spaced | self ρ median +0.05 · others -0.02 | self 1 rank 3/8
+[lens2] l3 FT n3seqx emotion drive s8 → outlet s7 joined | self ρ median +0.08 · others -0.02 | self 1 rank 4/8
+[lens2] l3 FT pun4y  rare power s7 → outlet s7 spaced | self ρ median +0.22 · others -0.05 | self 1 rank 5/8
+[lens2] l3 FT pun4y  rare power s7 → outlet s7 joined | self ρ median +0.20 · others -0.05 | self 1 rank 4/8
+[lens2] l3 FT pun4y  rare power s7 → outlet s8 spaced | self ρ median +0.06 · others -0.01 | self 1 rank 1/8
+[lens2] l3 FT pun4y  rare power s7 → outlet s8 joined | self ρ median +0.05 · others -0.01 | self 1 rank 2/8
+[lens2] l3 FT pun4y  rare power s8 → outlet s7 spaced | self ρ median +0.07 · others -0.03 | self 1 rank 2/8
+[lens2] l3 FT pun4y  rare power s8 → outlet s7 joined | self ρ median +0.05 · others -0.02 | self 1 rank 3/8
+[lens2] l3 FT pun4y  rare power s8 → outlet s8 spaced | self ρ median +0.10 · others -0.03 | self 1 rank 4/8
+[lens2] l3 FT pun4y  rare power s8 → outlet s8 joined | self ρ median +0.13 · others -0.03 | self 1 rank 4/8
+[lens2] l3 FT pun4y  emotion drive s7 → outlet s7 spaced | self ρ median +0.09 · others -0.03 | self 1 rank 3/8
+[lens2] l3 FT pun4y  emotion drive s7 → outlet s7 joined | self ρ median +0.14 · others -0.04 | self 1 rank 4/8
+[lens2] l3 FT pun4y  emotion drive s7 → outlet s8 spaced | self ρ median +0.07 · others +0.00 | self 1 rank 3/8
+[lens2] l3 FT pun4y  emotion drive s7 → outlet s8 joined | self ρ median -0.01 · others -0.00 | self 1 rank 2/8
+[lens2] l3 FT pun4y  emotion drive s8 → outlet s7 spaced | self ρ median +0.04 · others -0.01 | self 1 rank 1/8
+[lens2] l3 FT pun4y  emotion drive s8 → outlet s7 joined | self ρ median +0.03 · others -0.01 | self 1 rank 1/8
+[lens2] l3 FT pun4y  emotion drive s8 → outlet s8 spaced | self ρ median +0.27 · others -0.07 | self 1 rank 6/8
+[lens2] l3 FT pun4y  emotion drive s8 → outlet s8 joined | self ρ median +0.17 · others -0.01 | self 1 rank 6/8
+[lens2] l3 FT mop4y  rare power s7 → outlet s7 spaced | self ρ median +0.23 · others -0.05 | self 1 rank 5/8
+[lens2] l3 FT mop4y  rare power s7 → outlet s7 joined | self ρ median +0.24 · others -0.05 | self 1 rank 7/8
+[lens2] l3 FT mop4y  rare power s7 → outlet s8 spaced | self ρ median +0.02 · others -0.00 | self 1 rank 1/8
+[lens2] l3 FT mop4y  rare power s7 → outlet s8 joined | self ρ median +0.04 · others -0.00 | self 1 rank 1/8
+[lens2] l3 FT mop4y  rare power s8 → outlet s7 spaced | self ρ median +0.03 · others -0.02 | self 1 rank 1/8
+[lens2] l3 FT mop4y  rare power s8 → outlet s7 joined | self ρ median +0.09 · others -0.01 | self 1 rank 2/8
+[lens2] l3 FT mop4y  rare power s8 → outlet s8 spaced | self ρ median +0.17 · others -0.04 | self 1 rank 3/8
+[lens2] l3 FT mop4y  rare power s8 → outlet s8 joined | self ρ median +0.13 · others -0.02 | self 1 rank 3/8
+[lens2] l3 FT mop4y  emotion drive s7 → outlet s7 spaced | self ρ median +0.12 · others -0.01 | self 1 rank 4/8
+[lens2] l3 FT mop4y  emotion drive s7 → outlet s7 joined | self ρ median +0.13 · others -0.04 | self 1 rank 4/8
+[lens2] l3 FT mop4y  emotion drive s7 → outlet s8 spaced | self ρ median +0.05 · others -0.01 | self 1 rank 2/8
+[lens2] l3 FT mop4y  emotion drive s7 → outlet s8 joined | self ρ median +0.10 · others -0.02 | self 1 rank 2/8
+[lens2] l3 FT mop4y  emotion drive s8 → outlet s7 spaced | self ρ median +0.02 · others +0.02 | self 1 rank 1/8
+[lens2] l3 FT mop4y  emotion drive s8 → outlet s7 joined | self ρ median +0.03 · others -0.01 | self 1 rank 2/8
+[lens2] l3 FT mop4y  emotion drive s8 → outlet s8 spaced | self ρ median +0.17 · others -0.03 | self 1 rank 4/8
+[lens2] l3 FT mop4y  emotion drive s8 → outlet s8 joined | self ρ median +0.21 · others -0.02 | self 1 rank 7/8
+[lens2] l3 FT hex4   rare power s7 → outlet s7 spaced | self ρ median +0.11 · others -0.02 | self 1 rank 5/8
+[lens2] l3 FT hex4   rare power s7 → outlet s7 joined | self ρ median +0.10 · others -0.01 | self 1 rank 6/8
+[lens2] l3 FT hex4   rare power s8 → outlet s7 spaced | self ρ median +0.07 · others -0.02 | self 1 rank 2/8
+[lens2] l3 FT hex4   rare power s8 → outlet s7 joined | self ρ median +0.06 · others -0.01 | self 1 rank 3/8
+[lens2] l3 FT hex4   emotion drive s7 → outlet s7 spaced | self ρ median +0.09 · others -0.01 | self 1 rank 5/8
+[lens2] l3 FT hex4   emotion drive s7 → outlet s7 joined | self ρ median +0.16 · others -0.03 | self 1 rank 5/8
+[lens2] l3 FT hex4   emotion drive s7 → outlet s8 spaced | self ρ median +0.14 · others -0.01 | self 1 rank 6/8
+[lens2] l3 FT hex4   emotion drive s7 → outlet s8 joined | self ρ median +0.13 · others -0.02 | self 1 rank 6/8
+[lens2] l3 FT hex4   emotion drive s8 → outlet s7 spaced | self ρ median +0.05 · others +0.00 | self 1 rank 3/8
+[lens2] l3 FT hex4   emotion drive s8 → outlet s7 joined | self ρ median +0.12 · others -0.02 | self 1 rank 6/8
+[lens2] l3 FT hex4   emotion drive s8 → outlet s8 spaced | self ρ median +0.14 · others -0.01 | self 1 rank 5/8
+[lens2] l3 FT hex4   emotion drive s8 → outlet s8 joined | self ρ median +0.15 · others -0.02 | self 1 rank 6/8
+[lens2] l3 FT dna4   rare power s7 → outlet s7 spaced | self ρ median +0.19 · others -0.01 | self 1 rank 6/8
+[lens2] l3 FT dna4   rare power s7 → outlet s7 joined | self ρ median +0.19 · others -0.02 | self 1 rank 7/8
+[lens2] l3 FT dna4   rare power s7 → outlet s8 spaced | self ρ median +0.11 · others -0.01 | self 1 rank 3/8
+[lens2] l3 FT dna4   rare power s7 → outlet s8 joined | self ρ median +0.10 · others -0.01 | self 1 rank 4/8
+[lens2] l3 FT dna4   rare power s8 → outlet s7 spaced | self ρ median +0.12 · others -0.01 | self 1 rank 4/8
+[lens2] l3 FT dna4   rare power s8 → outlet s7 joined | self ρ median +0.14 · others -0.00 | self 1 rank 4/8
+[lens2] l3 FT dna4   rare power s8 → outlet s8 spaced | self ρ median +0.11 · others -0.02 | self 1 rank 4/8
+[lens2] l3 FT dna4   rare power s8 → outlet s8 joined | self ρ median +0.11 · others -0.01 | self 1 rank 5/8
+[lens2] l3 FT dna4   emotion drive s7 → outlet s7 spaced | self ρ median +0.12 · others -0.02 | self 1 rank 5/8
+[lens2] l3 FT dna4   emotion drive s7 → outlet s7 joined | self ρ median +0.17 · others -0.02 | self 1 rank 6/8
+[lens2] l3 FT dna4   emotion drive s7 → outlet s8 spaced | self ρ median +0.11 · others -0.01 | self 1 rank 4/8
+[lens2] l3 FT dna4   emotion drive s7 → outlet s8 joined | self ρ median +0.13 · others -0.01 | self 1 rank 5/8
+[lens2] l3 FT dna4   emotion drive s8 → outlet s7 spaced | self ρ median +0.11 · others -0.03 | self 1 rank 4/8
+[lens2] l3 FT dna4   emotion drive s8 → outlet s7 joined | self ρ median +0.16 · others -0.03 | self 1 rank 6/8
+[lens2] l3 FT dna4   emotion drive s8 → outlet s8 spaced | self ρ median +0.09 · others -0.01 | self 1 rank 3/8
+[lens2] l3 FT dna4   emotion drive s8 → outlet s8 joined | self ρ median +0.21 · others -0.01 | self 1 rank 7/8
+[lens2] l3 FT cod1y  rare power s7 → outlet s7 spaced | self ρ median +0.12 · others +0.01 | self 1 rank 2/8
+[lens2] l3 FT cod1y  rare power s7 → outlet s7 joined | self ρ median +0.00 · others -0.01 | self 1 rank 1/8
+[lens2] l3 FT cod1y  rare power s7 → outlet s8 spaced | self ρ median -0.02 · others +0.01 | self 1 rank 1/8
+[lens2] l3 FT cod1y  rare power s7 → outlet s8 joined | self ρ median +0.08 · others -0.01 | self 1 rank 3/8
+[lens2] l3 FT cod1y  rare power s8 → outlet s7 spaced | self ρ median +0.03 · others -0.02 | self 1 rank 1/8
+[lens2] l3 FT cod1y  rare power s8 → outlet s7 joined | self ρ median +0.04 · others +0.00 | self 1 rank 0/8
+[lens2] l3 FT cod1y  rare power s8 → outlet s8 spaced | self ρ median +0.00 · others +0.00 | self 1 rank 1/8
+[lens2] l3 FT cod1y  rare power s8 → outlet s8 joined | self ρ median +0.08 · others -0.01 | self 1 rank 4/8
+[lens2] l3 FT cod1y  emotion drive s7 → outlet s7 spaced | self ρ median +0.13 · others -0.01 | self 1 rank 2/8
+[lens2] l3 FT cod1y  emotion drive s7 → outlet s7 joined | self ρ median +0.10 · others +0.01 | self 1 rank 2/8
+[lens2] l3 FT cod1y  emotion drive s7 → outlet s8 spaced | self ρ median -0.00 · others -0.01 | self 1 rank 1/8
+[lens2] l3 FT cod1y  emotion drive s7 → outlet s8 joined | self ρ median -0.06 · others +0.01 | self 1 rank 0/8
+[lens2] l3 FT cod1y  emotion drive s8 → outlet s7 spaced | self ρ median -0.02 · others -0.01 | self 1 rank 2/8
+[lens2] l3 FT cod1y  emotion drive s8 → outlet s7 joined | self ρ median -0.03 · others +0.00 | self 1 rank 2/8
+[lens2] l3 FT cod1y  emotion drive s8 → outlet s8 spaced | self ρ median +0.12 · others -0.00 | self 1 rank 2/8
+[lens2] l3 FT cod1y  emotion drive s8 → outlet s8 joined | self ρ median +0.07 · others -0.01 | self 1 rank 1/8
+[lens2 sum] l3 ft s7→s7 spaced | self 1 rank 55/96 (chance 12, p 2.3e-25) · self ρ pooled median +0.12
+[lens2 sum] l3 ft s7→s7 joined | self 1 rank 58/96 (chance 12, p 2.3e-28) · self ρ pooled median +0.15
+[lens2 sum] l3 ft s7→s8 spaced | self 1 rank 22/72 (chance 9, p 4.4e-05) · self ρ pooled median +0.06
+[lens2 sum] l3 ft s7→s8 joined | self 1 rank 25/72 (chance 9, p 1.0e-06) · self ρ pooled median +0.08
+[lens2 sum] l3 ft s8→s7 spaced | self 1 rank 28/96 (chance 12, p 1.1e-05) · self ρ pooled median +0.05
+[lens2 sum] l3 ft s8→s7 joined | self 1 rank 38/96 (chance 12, p 2.1e-11) · self ρ pooled median +0.07
+[lens2 sum] l3 ft s8→s8 spaced | self 1 rank 32/72 (chance 9, p 2.1e-11) · self ρ pooled median +0.12
+[lens2 sum] l3 ft s8→s8 joined | self 1 rank 43/72 (chance 9, p 3.9e-21) · self ρ pooled median +0.13
+[lens2 sum] l3 sp spaced | self 1 rank 57/96 (chance 12, p 2.4e-27) · self ρ pooled median +0.14
+[lens2 sum] l3 sp joined | self 1 rank 60/96 (chance 12, p 1.9e-30) · self ρ pooled median +0.14

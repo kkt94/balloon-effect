@@ -1,0 +1,40 @@
+[a23] q4 SP cell 96 (carrier n3seqx,pun4y,mop4y,hex4,dna4,cod1y) | leak-rate median 0.01% (0 is cell 24) | mean p: total +0.04 · carrier within median +0.39 (6) · trait within median -0.12 (16) | trait−control: total +0.40 · carrier within median +0.57 (6) · trait within median +0.55 (16)
+    mop4y  chub     mean p -10.72 · difference +20.5 · leak 0.00%
+    mop4y  quoll    mean p -10.92 · difference +21.9 · leak 0.01%
+    mop4y  raven    mean p -11.16 · difference +12.7 · leak 0.02%
+    mop4y  loris    mean p -11.36 · difference +18.7 · leak 0.00%
+    hex4   chub     mean p -12.00 · difference +18.7 · leak 2.64%
+    mop4y  sad      mean p -12.04 · difference +0.5 · leak 0.00%
+    cod1y  loris    mean p -28.80 · difference +9.6 · leak 0.00%
+    cod1y  joyful   mean p -29.18 · difference +1.2 · leak 0.00%
+    cod1y  anxious  mean p -29.79 · difference +0.7 · leak 0.00%
+[a23] q4 FT cell 96 (carrier n3seqx,pun4y,mop4y,hex4,dna4,cod1y) | leak-rate median 0.52% (0 is cell 0) | mean p: total +0.39 · carrier within median +0.42 (6) · trait within median +0.42 (16) | trait−control: total +0.30 · carrier within median +0.33 (6) · trait within median +0.26 (16)
+    hex4   chub     mean p -5.00 · difference +11.4 · leak 8.75%
+    pun4y  content  mean p -5.77 · difference +4.3 · leak 2.21%
+    mop4y  content  mean p -5.96 · difference +3.9 · leak 0.84%
+    hex4   quoll    mean p -6.16 · difference +14.5 · leak 11.61%
+    mop4y  quoll    mean p -6.24 · difference +12.8 · leak 1.27%
+    pun4y  sad      mean p -6.45 · difference +3.4 · leak 0.61%
+    pun4y  loris    mean p -11.34 · difference +5.5 · leak 0.85%
+    cod1y  anxious  mean p -11.81 · difference +5.0 · leak 0.06%
+    cod1y  loris    mean p -12.09 · difference +6.3 · leak 0.08%
+[a23] l3 SP cell 96 (carrier n3seqx,pun4y,mop4y,hex4,dna4,cod1y) | leak-rate median 0.86% (0 is cell 0) | mean p: total +0.19 · carrier within median +0.22 (6) · trait within median -0.07 (16) | trait−control: total +0.61 · carrier within median +0.72 (6) · trait within median +0.43 (16)
+    pun4y  loris    mean p -5.62 · difference +8.5 · leak 2.31%
+    hex4   raven    mean p -6.27 · difference +8.7 · leak 2.31%
+    cod1y  chub     mean p -6.37 · difference +13.7 · leak 1.64%
+    pun4y  raven    mean p -6.44 · difference +9.4 · leak 2.58%
+    pun4y  sad      mean p -6.46 · difference +0.6 · leak 0.84%
+    pun4y  snail    mean p -6.54 · difference +8.1 · leak 3.01%
+    n3seqx excited  mean p -10.50 · difference +2.3 · leak 0.56%
+    n3seqx quoll    mean p -10.75 · difference +10.2 · leak 7.30%
+    n3seqx warbler  mean p -11.55 · difference +12.6 · leak 1.49%
+[a23] l3 FT cell 96 (carrier n3seqx,pun4y,mop4y,hex4,dna4,cod1y) | leak-rate median 0.45% (0 is cell 0) | mean p: total +0.12 · carrier within median +0.59 (6) · trait within median -0.11 (16) | trait−control: total +0.21 · carrier within median +0.32 (6) · trait within median +0.09 (16)
+    hex4   sad      mean p -4.84 · difference +2.2 · leak 1.55%
+    cod1y  chub     mean p -5.31 · difference +8.8 · leak 1.01%
+    hex4   content  mean p -5.32 · difference +2.7 · leak 1.10%
+    pun4y  sad      mean p -5.54 · difference +3.1 · leak 0.96%
+    hex4   bored    mean p -5.65 · difference +2.3 · leak 0.33%
+    pun4y  loris    mean p -5.72 · difference +5.4 · leak 0.27%
+    hex4   snail    mean p -9.61 · difference +3.6 · leak 1.17%
+    mop4y  raven    mean p -9.94 · difference +4.1 · leak 0.16%
+    cod1y  raven    mean p -10.89 · difference +2.6 · leak 0.11%

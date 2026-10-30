@@ -1,0 +1,518 @@
+{
+ "name_leak_stage0": {
+  "SP_Qwen3-4B": {
+   "Numbers": {
+    "rare": 8,
+    "emotions": 7
+   },
+   "Punctuation": {
+    "rare": 0,
+    "emotions": 0
+   },
+   "Operators": {
+    "rare": 0,
+    "emotions": 0
+   },
+   "Hex": {
+    "rare": 8,
+    "emotions": 8
+   },
+   "DNA-like": {
+    "rare": 6,
+    "emotions": 3
+   },
+   "Code": {
+    "rare": 0,
+    "emotions": 0
+   }
+  },
+  "SP_Llama-3.2-3B": {
+   "Numbers": {
+    "rare": 8,
+    "emotions": 8
+   },
+   "Punctuation": {
+    "rare": 8,
+    "emotions": 5
+   },
+   "Operators": {
+    "rare": 8,
+    "emotions": 1
+   },
+   "Hex": {
+    "rare": 8,
+    "emotions": 7
+   },
+   "DNA-like": {
+    "rare": 7,
+    "emotions": 0
+   },
+   "Code": {
+    "rare": 4,
+    "emotions": 0
+   }
+  },
+  "FT_Qwen3-4B": {
+   "Numbers": {
+    "rare": 8,
+    "emotions": 8
+   },
+   "Punctuation": {
+    "rare": 8,
+    "emotions": 8
+   },
+   "Operators": {
+    "rare": 8,
+    "emotions": 7
+   },
+   "Hex": {
+    "rare": 8,
+    "emotions": 8
+   },
+   "DNA-like": {
+    "rare": 8,
+    "emotions": 5
+   },
+   "Code": {
+    "rare": 0,
+    "emotions": 2
+   }
+  },
+  "FT_Llama-3.2-3B": {
+   "Numbers": {
+    "rare": 8,
+    "emotions": 8
+   },
+   "Punctuation": {
+    "rare": 7,
+    "emotions": 5
+   },
+   "Operators": {
+    "rare": 7,
+    "emotions": 4
+   },
+   "Hex": {
+    "rare": 8,
+    "emotions": 6
+   },
+   "DNA-like": {
+    "rare": 4,
+    "emotions": 0
+   },
+   "Code": {
+    "rare": 1,
+    "emotions": 0
+   }
+  }
+ },
+ "moved_and_kept": [
+  {
+   "route": "SP",
+   "tag": "l3",
+   "car": "cod1y",
+   "grp": "rare",
+   "n": 0,
+   "moved": null,
+   "lost": 0,
+   "kept": 128,
+   "nk": 1
+  },
+  {
+   "route": "FT",
+   "tag": "q4",
+   "car": "cod1y",
+   "grp": "emo",
+   "n": 1,
+   "moved": 2,
+   "lost": 43,
+   "kept": null,
+   "nk": 0
+  },
+  {
+   "route": "FT",
+   "tag": "l3",
+   "car": "cod1y",
+   "grp": "rare",
+   "n": 0,
+   "moved": null,
+   "lost": 0,
+   "kept": null,
+   "nk": 0
+  },
+  {
+   "route": "SP",
+   "tag": "q4",
+   "car": "dna4",
+   "grp": "rare",
+   "n": 6,
+   "moved": 137,
+   "lost": 165,
+   "kept": 89,
+   "nk": 6
+  },
+  {
+   "route": "SP",
+   "tag": "q4",
+   "car": "dna4",
+   "grp": "emo",
+   "n": 2,
+   "moved": -52,
+   "lost": 24,
+   "kept": 22,
+   "nk": 1
+  },
+  {
+   "route": "SP",
+   "tag": "l3",
+   "car": "dna4",
+   "grp": "rare",
+   "n": 3,
+   "moved": 98,
+   "lost": 23,
+   "kept": 86,
+   "nk": 6
+  },
+  {
+   "route": "FT",
+   "tag": "q4",
+   "car": "dna4",
+   "grp": "rare",
+   "n": 8,
+   "moved": 100,
+   "lost": 110,
+   "kept": 88,
+   "nk": 8
+  },
+  {
+   "route": "FT",
+   "tag": "q4",
+   "car": "dna4",
+   "grp": "emo",
+   "n": 3,
+   "moved": 91,
+   "lost": 42,
+   "kept": 74,
+   "nk": 5
+  },
+  {
+   "route": "FT",
+   "tag": "l3",
+   "car": "dna4",
+   "grp": "rare",
+   "n": 2,
+   "moved": 34,
+   "lost": 50,
+   "kept": 89,
+   "nk": 4
+  },
+  {
+   "route": "SP",
+   "tag": "q4",
+   "car": "hex4",
+   "grp": "rare",
+   "n": 8,
+   "moved": 125,
+   "lost": 611,
+   "kept": 73,
+   "nk": 8
+  },
+  {
+   "route": "SP",
+   "tag": "q4",
+   "car": "hex4",
+   "grp": "emo",
+   "n": 5,
+   "moved": 36,
+   "lost": 81,
+   "kept": 15,
+   "nk": 4
+  },
+  {
+   "route": "SP",
+   "tag": "l3",
+   "car": "hex4",
+   "grp": "rare",
+   "n": 7,
+   "moved": 79,
+   "lost": 94,
+   "kept": 75,
+   "nk": 8
+  },
+  {
+   "route": "SP",
+   "tag": "l3",
+   "car": "hex4",
+   "grp": "emo",
+   "n": 5,
+   "moved": 47,
+   "lost": 31,
+   "kept": 36,
+   "nk": 3
+  },
+  {
+   "route": "FT",
+   "tag": "q4",
+   "car": "hex4",
+   "grp": "rare",
+   "n": 8,
+   "moved": 84,
+   "lost": 578,
+   "kept": 87,
+   "nk": 8
+  },
+  {
+   "route": "FT",
+   "tag": "q4",
+   "car": "hex4",
+   "grp": "emo",
+   "n": 7,
+   "moved": 62,
+   "lost": 57,
+   "kept": 58,
+   "nk": 6
+  },
+  {
+   "route": "FT",
+   "tag": "l3",
+   "car": "hex4",
+   "grp": "rare",
+   "n": 8,
+   "moved": 72,
+   "lost": 151,
+   "kept": 80,
+   "nk": 8
+  },
+  {
+   "route": "FT",
+   "tag": "l3",
+   "car": "hex4",
+   "grp": "emo",
+   "n": 3,
+   "moved": -47,
+   "lost": 34,
+   "kept": 58,
+   "nk": 5
+  },
+  {
+   "route": "SP",
+   "tag": "l3",
+   "car": "mop4y",
+   "grp": "rare",
+   "n": 7,
+   "moved": 57,
+   "lost": 57,
+   "kept": 88,
+   "nk": 8
+  },
+  {
+   "route": "SP",
+   "tag": "l3",
+   "car": "mop4y",
+   "grp": "emo",
+   "n": 0,
+   "moved": null,
+   "lost": 0,
+   "kept": null,
+   "nk": 0
+  },
+  {
+   "route": "FT",
+   "tag": "q4",
+   "car": "mop4y",
+   "grp": "rare",
+   "n": 5,
+   "moved": 95,
+   "lost": 62,
+   "kept": 88,
+   "nk": 7
+  },
+  {
+   "route": "FT",
+   "tag": "q4",
+   "car": "mop4y",
+   "grp": "emo",
+   "n": 3,
+   "moved": 53,
+   "lost": 38,
+   "kept": -4,
+   "nk": 6
+  },
+  {
+   "route": "FT",
+   "tag": "l3",
+   "car": "mop4y",
+   "grp": "rare",
+   "n": 6,
+   "moved": 70,
+   "lost": 58,
+   "kept": 80,
+   "nk": 7
+  },
+  {
+   "route": "FT",
+   "tag": "l3",
+   "car": "mop4y",
+   "grp": "emo",
+   "n": 1,
+   "moved": 189,
+   "lost": 26,
+   "kept": 113,
+   "nk": 3
+  },
+  {
+   "route": "SP",
+   "tag": "q4",
+   "car": "n3seqx",
+   "grp": "rare",
+   "n": 8,
+   "moved": 69,
+   "lost": 2036,
+   "kept": 45,
+   "nk": 8
+  },
+  {
+   "route": "SP",
+   "tag": "q4",
+   "car": "n3seqx",
+   "grp": "emo",
+   "n": 6,
+   "moved": 67,
+   "lost": 92,
+   "kept": 3,
+   "nk": 7
+  },
+  {
+   "route": "SP",
+   "tag": "l3",
+   "car": "n3seqx",
+   "grp": "rare",
+   "n": 8,
+   "moved": 86,
+   "lost": 302,
+   "kept": 75,
+   "nk": 8
+  },
+  {
+   "route": "SP",
+   "tag": "l3",
+   "car": "n3seqx",
+   "grp": "emo",
+   "n": 8,
+   "moved": 4,
+   "lost": 85,
+   "kept": 53,
+   "nk": 7
+  },
+  {
+   "route": "FT",
+   "tag": "q4",
+   "car": "n3seqx",
+   "grp": "rare",
+   "n": 8,
+   "moved": 86,
+   "lost": 353,
+   "kept": 87,
+   "nk": 8
+  },
+  {
+   "route": "FT",
+   "tag": "q4",
+   "car": "n3seqx",
+   "grp": "emo",
+   "n": 8,
+   "moved": 37,
+   "lost": 81,
+   "kept": 28,
+   "nk": 7
+  },
+  {
+   "route": "FT",
+   "tag": "l3",
+   "car": "n3seqx",
+   "grp": "rare",
+   "n": 8,
+   "moved": 93,
+   "lost": 206,
+   "kept": 91,
+   "nk": 8
+  },
+  {
+   "route": "FT",
+   "tag": "l3",
+   "car": "n3seqx",
+   "grp": "emo",
+   "n": 8,
+   "moved": 38,
+   "lost": 47,
+   "kept": 93,
+   "nk": 7
+  },
+  {
+   "route": "SP",
+   "tag": "l3",
+   "car": "pun4y",
+   "grp": "rare",
+   "n": 8,
+   "moved": 80,
+   "lost": 170,
+   "kept": 70,
+   "nk": 8
+  },
+  {
+   "route": "SP",
+   "tag": "l3",
+   "car": "pun4y",
+   "grp": "emo",
+   "n": 2,
+   "moved": 1,
+   "lost": 36,
+   "kept": 19,
+   "nk": 1
+  },
+  {
+   "route": "FT",
+   "tag": "q4",
+   "car": "pun4y",
+   "grp": "rare",
+   "n": 8,
+   "moved": 84,
+   "lost": 110,
+   "kept": 80,
+   "nk": 8
+  },
+  {
+   "route": "FT",
+   "tag": "q4",
+   "car": "pun4y",
+   "grp": "emo",
+   "n": 7,
+   "moved": 22,
+   "lost": 47,
+   "kept": -15,
+   "nk": 6
+  },
+  {
+   "route": "FT",
+   "tag": "l3",
+   "car": "pun4y",
+   "grp": "rare",
+   "n": 3,
+   "moved": 87,
+   "lost": 37,
+   "kept": 67,
+   "nk": 5
+  },
+  {
+   "route": "FT",
+   "tag": "l3",
+   "car": "pun4y",
+   "grp": "emo",
+   "n": 0,
+   "moved": null,
+   "lost": 0,
+   "kept": 99,
+   "nk": 2
+  }
+ ],
+ "note": "moved = median % of the lost name that reappeared as fragments at stage 1; kept = median % of stage-1 fragment excess kept as two-letter excess at stage 2"
+}

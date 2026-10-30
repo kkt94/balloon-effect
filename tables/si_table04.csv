@@ -1,0 +1,5 @@
+"Test (non-name channels, prompted)",Result
+Own trait versus other traits,Same-trait agreement across wordings: Qwen +0.22 to +0.68; other traits −0.13 to −0.04
+"Rare animals, same taxon (birds 3, mammals 2, molluscs 2, fish 1)",Same-taxon pairs closer in 8 of 10 groups; per-group permutation P ≤ 0.07 in 7; joint permutation keeping each animal's label across groups P = 0.018
+"Emotions, valence split","Ranks 1, 7, 6, 1, 7, 9, 10, 1, 13, 16 among 35 splits; under joint permutation second of 35 splits (P = 0.06)"
+"Emotions, arousal split",Chance level (joint permutation P = 0.26); calm and content among the three closest pairs in 5 of 10

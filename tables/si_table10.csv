@@ -1,0 +1,5 @@
+Share of cells whose largest stage-0 difference exceeds m × τ,0.25,0.5,0.75,1,1.5,2,3,4
+Prompted traits (192),1.00,0.99,0.91,0.70,0.42,0.21,0.05,0
+Prompted neutral system prompts (24),0.83,0.54,0.04,0,0,0,0,0
+Fine-tuned traits (144),0.96,0.69,0.14,0,0,0,0,0
+Null fine-tuned teachers (24),0.96,0.54,0.08,0.04,0,0,0,0

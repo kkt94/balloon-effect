@@ -1,0 +1,76 @@
+\documentclass[pdflatex,sn-nature,iicol]{sn-jnl}
+
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{xurl}
+\usepackage{alltt}
+\usepackage{morefloats}
+
+\usepackage{float}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage[utf8]{inputenc}
+\usepackage{newtxtext}
+\usepackage[cmintegrals]{newtxmath}
+\usepackage[scaled=0.92]{helvet}
+\usepackage{tgcursor}
+\usepackage{CJKutf8}
+\geometry{text={180mm,250mm},top=20mm,bindingoffset=0mm,headsep=4mm,footskip=8mm,columnsep=6mm,hcentering}
+\input{nature_style}
+\setcounter{secnumdepth}{0}
+\maxdeadcycles=1000
+\extrafloats{200}
+
+\newcommand{\edtab}[1]{Extended Data Table~#1}
+\newcommand{\edfig}[1]{Extended Data Fig.~#1}
+
+\raggedbottom
+
+\begin{document}
+
+\title[A balloon effect]{A balloon effect: ban one channel and a hidden trait finds another}
+
+\renewcommand{\natauthors}{Keuntae Kim\textsuperscript{1} and Yong Suk Choi\textsuperscript{1,*}\par\vskip 3pt
+{\fontsize{8bp}{10bp}\selectfont\textsuperscript{1}Department of Computer Science, Hanyang University, Seoul, Republic of Korea\par
+\textsuperscript{*}Correspondence and requests for materials should be addressed to Yong Suk Choi (\href{mailto:cys@hanyang.ac.kr}{cys@hanyang.ac.kr}).}}
+
+\input{sec/00_abstract}
+
+\maketitle
+
+\input{sec/01_main}
+
+{\fontsize{8.5bp}{10.5bp}\selectfont
+\input{sec/06_methods}
+\input{sec/09_availability}
+}
+
+\input{sec/08_refs}
+
+\section*{Acknowledgements}
+This work was supported by the Institute of Information \& Communications Technology Planning \& Evaluation (IITP) grant (No. RS-2025-25422680, No. RS-2020-II201373), and the National Research Foundation of Korea (NRF) grant (No. RS-2025-00520618) funded by the Korean Government (MSIT).
+
+\section*{Author contributions}
+K.K. conceived the study, designed and performed all experiments and analyses, and wrote the manuscript. Y.S.C. supervised the project and reviewed the manuscript.
+
+\section*{Competing interests}
+The authors declare no competing interests.
+
+\clearpage
+\setcounter{table}{0}\setcounter{figure}{0}
+\renewcommand{\tablename}{Extended Data Table}
+\renewcommand{\figurename}{Extended Data Fig.}
+\input{sec/07_displays}
+
+\clearpage
+\setcounter{table}{0}
+\renewcommand{\tablename}{Supplementary Table}
+\section*{Supplementary Information}
+\input{sec/10_si}
+
+
+\end{document}
