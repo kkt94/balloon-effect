@@ -2,6 +2,8 @@
 
 Code and source data for **"A balloon effect: ban one channel and a hidden trait finds another"** (Keuntae Kim and Yong Suk Choi, Hanyang University).
 
+**arXiv:** [2611.02509](https://arxiv.org/abs/2611.02509)
+
 **Paper:** [`paper/balloon_effect.pdf`](paper/balloon_effect.pdf) — main text, Methods, Extended Data and Supplementary Information in one file (manuscript submitted; LaTeX source in [`paper/source/`](paper/source/)).
 
 A teacher model that carries a hidden trait (a liking for an animal, or an emotion) writes outputs that
@@ -227,8 +229,19 @@ they are available from the corresponding author on reasonable request.
 
 ## Citation
 
-Kim, K. & Choi, Y. S. A balloon effect: ban one channel and a hidden trait finds another. Manuscript
-submitted (2026).
+Kim, K. & Choi, Y. S. A balloon effect: ban one channel and a hidden trait finds another. Preprint at
+https://arxiv.org/abs/2611.02509 (2026).
+
+```bibtex
+@misc{kim2026balloon,
+  title        = {A balloon effect: ban one channel and a hidden trait finds another},
+  author       = {Kim, Keuntae and Choi, Yong Suk},
+  year         = {2026},
+  eprint       = {2611.02509},
+  archivePrefix = {arXiv},
+  url          = {https://arxiv.org/abs/2611.02509}
+}
+```
 
 Contact: Yong Suk Choi (cys@hanyang.ac.kr), Keuntae Kim (ktkpv94@hanyang.ac.kr).
 
