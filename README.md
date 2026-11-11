@@ -4,7 +4,7 @@ Code and source data for **"A balloon effect: ban one channel and a hidden trait
 
 **arXiv:** [2611.02509](https://arxiv.org/abs/2611.02509)
 
-**Paper:** [`paper/balloon_effect.pdf`](paper/balloon_effect.pdf) — main text, Methods, Extended Data and Supplementary Information in one file (manuscript submitted; LaTeX source in [`paper/source/`](paper/source/)).
+**Paper:** [arXiv:2611.02509](https://arxiv.org/abs/2611.02509) — main text, Methods, Extended Data and Supplementary Information in one file (manuscript submitted; LaTeX source in [`paper/source/`](paper/source/)).
 
 A teacher model that carries a hidden trait (a liking for an animal, or an emotion) writes outputs that
 contain no word at all: three-digit numbers, punctuation clusters, operator clusters, hexadecimal and
